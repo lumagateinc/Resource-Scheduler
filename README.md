@@ -38,7 +38,7 @@ The Resource Scheduler includes custom roles based on Azure role-based access co
 - **Schedule Manager**. Enables a user to manage schedules for resources to which they have access, as well as to schedule.
 - **Auditor**. This role has read-only access to resources, schedules, logs, and subscriptions connected to the Resource Scheduler instance.
 
-> **IMPORTANT NOTE:** Since the **Scheduler Manager** role can schedule based on Tags, a mem[HERE](http://example.com/link "title")r of this role may [HERE](http://example.com/link "title") able to schedule. This issue also exists when using tags with script or runbook-based scheduling, [HERE](http://example.com/link "title")cause Azure does not support RBAC for tags.
+> **IMPORTANT NOTE:** Since the **Scheduler Manager** role can schedule based on Tags, a member of this role may be able to schedule resources they cannot see. This issue also exists when using tags with script or runbook-based scheduling, because Azure does not support RBAC for tags.
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").

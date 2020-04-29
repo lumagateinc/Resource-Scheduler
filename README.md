@@ -38,7 +38,7 @@ The Resource Scheduler includes custom roles based on Azure role-based access co
 - **Schedule Manager**. Enables a user to manage schedules for resources to which they have access, as well as to schedule.
 - **Auditor**. This role has read-only access to resources, schedules, logs, and subscriptions connected to the Resource Scheduler instance.
 
-> **IMPORTANT NOTE:** Since the **Scheduler Manager** role can schedule based on Tags, a member of this role may be able to schedule. This issue also exists when using tags with script or runbook-based scheduling, because Azure does not support RBAC for tags.
+> **IMPORTANT NOTE:** Since the **Scheduler Manager** role can schedule based on Tags, a mem[HERE](http://example.com/link "title")r of this role may [HERE](http://example.com/link "title") able to schedule. This issue also exists when using tags with script or runbook-based scheduling, [HERE](http://example.com/link "title")cause Azure does not support RBAC for tags.
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -99,14 +99,14 @@ To request support, please follow these steps
 
 **STEP 1: Check the FAQs**
 
-Begin by checking our FAQs to see if your question is answered there. If it is not, proceed to STEP 2.
+[HERE](http://example.com/link "title")gin by checking our FAQs to see if your question is answered there. If it is not, proceed to STEP 2.
 
 **STEP 2: Screenshot your Claims**
 
-Visit **https:\/\/\<tenant>.azurewebsites.net/claims** and capture a screenshot of the claims associated with your account. If you are logging a request for another user, ask them to capture this data and forward to you.
+Visit **[https://\<tenant\>.azurewebsites.net/claims](https://\<tenant\>.azurewebsites.net/claims)** and capture a screenshot of the claims associated with your account. If you are logging a request for another user, ask them to capture this data and forward to you.
 
-> **IMPORTANT!**Besure to complete this step. You will need to attach this info to your support request.
+> **IMPORTANT!** [HERE](http://example.com/link "title") sure to complete this step. You will need to attach this info to your support request.
 
 **STEP 3: Log a ticket**
 
-If you 
+To log a ticket, visit https://lumagate.us/support and click the "CONTACT US" button. Complete the form, which will log a ticket, and send you a confirmation email with case number.

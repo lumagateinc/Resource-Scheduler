@@ -1,5 +1,6 @@
-# Resource Scheduler [](#)</br> <!-- omit in toc -->
+# Resource Scheduler <!-- omit in toc -->
 
+![header](images/_img.png)
 
 Resource Scheduler for Microsoft Azure provides a quick and easy way to create group schedules to stop and start VMs on dates and times you specify.
 
@@ -11,7 +12,7 @@ Resource Scheduler for Microsoft Azure provides a quick and easy way to create g
   - [Connect Subscriptions](#connect-subscriptions)</br>
   - [Configure Time Zone](#configure-time-zone)<br/>
 - [Using Resource Scheduler](#using-resource-scheduler)</br>
-  - [Create a Schedule](#create-a-schedule)
+  - [Managing Schedules](#managing-schedules)
   - [Schedule Resources Directly](#schedule-resources-directly)</br>
   - [Schedule Resources by Tag](#schedule-resources-by-tag)</br>
 - [Troubleshooting and Support](#troubleshooting-and-support)</br>
@@ -63,7 +64,7 @@ Step-by-step demo of this task.
 
 # Using Resource Scheduler <!-- omit in toc -->
 
-## Create a Schedule <!-- omit in toc -->
+## Managing Schedules <!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task.
@@ -105,11 +106,13 @@ To request support, please follow these steps
 
 **STEP 1: Check the FAQs**
 
-Begin by checking our FAQs to see if your question is answered there.
+Begin by checking our FAQs to see if your question is answered there. If it is not, proceed to STEP 2.
 
 **STEP 2: Screenshot your Claims**
 
 Visit **https://\<tenant>.azurewebsites.net/claims** and capture a screenshot of the claims associated with your account. If you are logging a request for another user, ask them to capture this data and forward to you.
+
+> **IMPORTANT!**Besure to complete this step. You will need to attach this info to your support request.
 
 **STEP 3: Log a ticket**
 If you 

@@ -22,16 +22,16 @@ Resource Scheduler for Microsoft Azure provides a quick and easy way to create g
 
 ## Install and Configure<!-- omit in toc -->
 
-This section covers the initial installation and configuration of the Resource Scheduler. 
+This section covers the initial installation and configuration of the Resource Scheduler.
 
-## Installation<!-- omit in toc -->
+### Installation<!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## Grant Permissions<!-- omit in toc -->
+### Grant Permissions<!-- omit in toc -->
 
 The Resource Scheduler includes custom roles based on Azure role-based access control. Roles include:
 
@@ -63,7 +63,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## Connect Subscriptions<!-- omit in toc -->
+### Connect Subscriptions<!-- omit in toc -->
 
 *To connect a new subscription to the Resource Scheduler instance, perform the following steps:*
 
@@ -72,7 +72,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## Configure Time Zone<!-- omit in toc -->
+### Configure Time Zone<!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -83,7 +83,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 This section details common tasks in everyday use of the Resource Scheduler.
 
-## Managing Schedules<!-- omit in toc -->
+### Managing Schedules<!-- omit in toc -->
 
 *To add a schedule, perform the following steps:*
 
@@ -116,7 +116,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 This section details where to view logs related to Resource Scheduler operation, as well as how to ask a question or request support.
 
-## Viewing Resource Logs<!-- omit in toc -->
+### Viewing Resource Logs<!-- omit in toc -->
 
 *To view logs related to a resource, perform the following steps:*
 
@@ -125,9 +125,9 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## View Logs<!-- omit in toc -->
+### View Logs<!-- omit in toc -->
 
-## Request Support<!-- omit in toc -->
+### Request Support<!-- omit in toc -->
 
 *To request support, perform the following steps:*
 

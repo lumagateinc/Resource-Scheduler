@@ -41,6 +41,17 @@ The Resource Scheduler includes custom roles based on Azure role-based access co
 
 > **IMPORTANT NOTE:** Since the **Scheduler Manager** role can schedule based on Tags, a member of this role may be able to schedule resources they cannot see. This issue also exists when using tags with script or runbook-based scheduling, because Azure does not support RBAC for tags.
 
+To assign a Resource Scheduler role to a user or group, perform the following steps:
+
+1. In the Azure portal or Office 365 Admin Center, select **Azure Active Directory**.
+2. Then, select Enterprise Applications. From the list, find and select Resource Scheduler (shown in Figure 1 below).
+3. Click **Add user > Users and Groups**. Then, select the user or group you wish to add the role. Click **Select** to save your changes.
+4. Next, click **Select Role**, and choose the role you would like to assign to the selected user or group (Administrator, Auditor, or Schedule Manager). Click **Select** to save your changes.
+
+![entapps](https://github.com/lumagateinc/scheduler/blob/master/images/ent_apps.png)
+
+**Figure 1**. Enterprise Apps list in Azure Active Directory
+
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 

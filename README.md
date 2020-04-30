@@ -41,7 +41,7 @@ The Resource Scheduler includes custom roles based on Azure role-based access co
 
 > **IMPORTANT NOTE:** Since the **Scheduler Manager** role can schedule based on Tags, a member of this role may be able to schedule resources they cannot see. This issue also exists when using tags with script or runbook-based scheduling, because Azure does not support RBAC for tags.
 
-To assign a Resource Scheduler role to a user or group, perform the following steps:
+*To assign a Resource Scheduler role to a user or group, perform the following steps:*
 
 1. In the Azure portal or Office 365 Admin Center, select **Azure Active Directory**.
 2. Then, select Enterprise Applications. From the list, find and select Resource Scheduler (shown in Figure 1 below).
@@ -52,12 +52,20 @@ To assign a Resource Scheduler role to a user or group, perform the following st
 
 **Figure 1**. Enterprise Apps list in Azure Active Directory
 
+Menu appearance will vary by role assignment. Member of the **Administrator** role will see the Subscriptions and Settings menus, as shown in Figure 2.
+
+![entapps](https://github.com/lumagateinc/scheduler/blob/master/images/menus.png)
+
+**Figure 2**. Enterprise Apps list in Azure Active Directory
+
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
 ## Connect Subscriptions<!-- omit in toc -->
+
+*To connect a new subscription to the Resource Scheduler instance, perform the following steps:*
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -73,7 +81,13 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ## Using Resource Scheduler<!-- omit in toc -->
 
+This section details common tasks in everyday use of the Resource Scheduler.
+
 ## Managing Schedules<!-- omit in toc -->
+
+*To add a schedule, perform the following steps:*
+
+*To remove a schedule, perform the following steps:*
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -82,12 +96,16 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ### Schedule Resources Directly<!-- omit in toc -->
 
+*To add VMs to a schedule, perform the following steps:*
+
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
 ### Schedule Resources by Tag<!-- omit in toc -->
+
+*To associate a tag to a schedule, perform the following steps:*
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -96,7 +114,11 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ## Troubleshooting and Support<!-- omit in toc -->
 
+This section details where to view logs related to Resource Scheduler operation, as well as how to ask a question or request support.
+
 ## Viewing Resource Logs<!-- omit in toc -->
+
+*To view logs related to a resource, perform the following steps:*
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -107,7 +129,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ## Request Support<!-- omit in toc -->
 
-To request support, please follow these steps
+*To request support, perform the following steps:*
 
 **STEP 1: Check the FAQs**
 

@@ -1,10 +1,10 @@
-# Resource Scheduler <!-- omit in toc -->
+# Resource Scheduler<!-- omit in toc -->
 
 ![Documentation Home](https://github.com/lumagateinc/scheduler/blob/master/images/header_img.png)
 
 Resource Scheduler for Microsoft Azure provides a quick and easy way to create group schedules to stop and start VMs on dates and times you specify.
 
-## Table of Contents <!-- omit in toc -->
+## Table of Contents<!-- omit in toc -->
 
 - [Install and Configure](#install-and-configure)</br>
   - [Installation](#installation)</br>
@@ -19,18 +19,18 @@ Resource Scheduler for Microsoft Azure provides a quick and easy way to create g
   - [View Logs](#view-logs)</br>
   - [Request Support](#request-support)</br>
 
-## Install and Configure <!-- omit in toc -->
+## Install and Configure<!-- omit in toc -->
 
 This section covers the initial installation and configuration of the Resource Scheduler. 
 
-## Installation <!-- omit in toc -->
+## Installation<!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## Grant Permissions <!-- omit in toc -->
+## Grant Permissions<!-- omit in toc -->
 
 The Resource Scheduler includes custom roles based on Azure role-based access control. Roles include:
 
@@ -45,55 +45,55 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## Connect Subscriptions <!-- omit in toc -->
+## Connect Subscriptions<!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## Configure Time Zone <!-- omit in toc -->
+## Configure Time Zone<!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## Using Resource Scheduler <!-- omit in toc -->
+## Using Resource Scheduler<!-- omit in toc -->
 
-## Managing Schedules <!-- omit in toc -->
-
-**Video demo:**
-Step-by-step demo of this task [HERE](http://example.com/link "title").
-
-[back to ToC](#table-of-contents)
-
-### Schedule Resources Directly <!-- omit in toc -->
+## Managing Schedules<!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-### Schedule Resources by Tag <!-- omit in toc -->
+### Schedule Resources Directly<!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## Troubleshooting and Support <!-- omit in toc -->
-
-## Viewing Resource Logs <!-- omit in toc -->
+### Schedule Resources by Tag<!-- omit in toc -->
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
-## View Logs <!-- omit in toc -->
+## Troubleshooting and Support<!-- omit in toc -->
 
-## Request Support <!-- omit in toc -->
+## Viewing Resource Logs<!-- omit in toc -->
+
+**Video demo:**
+Step-by-step demo of this task [HERE](http://example.com/link "title").
+
+[back to ToC](#table-of-contents)
+
+## View Logs<!-- omit in toc -->
+
+## Request Support<!-- omit in toc -->
 
 To request support, please follow these steps
 

@@ -21,3 +21,5 @@ The Resource Scheduler for Microsoft Azure is licensed based on the number of VM
 ## Where should I add the tag for scheduling VMs?<!-- omit in toc -->
 
 To avoid confusion and unintentional scheduling of VMs, the Resource Scheduler only looks for tag name and value on the VM itself. Tags on the resource group are intentionally ignored.
+
+[back to top](#resource-scheduler-faqs)

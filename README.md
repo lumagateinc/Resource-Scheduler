@@ -18,6 +18,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 - [Managing Schedules](#managing-schedules)</br>
   - [Schedule Resources Directly](#schedule-resources-directly)</br>
   - [Schedule Resources by Tag](#schedule-resources-by-tag)</br>
+- [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)</br>
 - [Troubleshooting and Support](#troubleshooting-and-support)</br>
   - [Viewing Resource Logs](#viewing-resource-logs)</br>
   - [Request Support](#request-support)</br>
@@ -94,13 +95,13 @@ You can associate multiple subscriptions to a single Resource Scheduler instance
 
 1. From the left menu, select **Subscriptions**.
 2. From the **Available Subscriptions**, find the subscription you want to add.
-3. Click the blue add ![add](https://github.com/lumagateinc/scheduler/blob/master/images/add.png) symbol next to the right of the subscription. Click **Connect** to confirm the change.
+3. Click the blue add ![add](https://github.com/lumagateinc/scheduler/blob/master/images/add.png) button next to the right of the subscription. Click **Connect** to confirm the change.
 
 *To **disconnect** a subscription to the Resource Scheduler instance, perform the following steps:*
 
 1. From the left menu, select **Subscriptions**.
 2. From the **Connected Subscriptions**, find the subscription you want to remove.
-3. Click the red disconnect ![delete](https://github.com/lumagateinc/scheduler/blob/master/images/disconnect.png) symbol next to the right of the subscription. Click **Disconnect** to confirm the change.
+3. Click the red disconnect ![delete](https://github.com/lumagateinc/scheduler/blob/master/images/disconnect.png) button next to the right of the subscription. Click **Disconnect** to confirm the change.
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -175,7 +176,7 @@ Associating schedules to resources with Azure tags is the preferred method for m
 
 1. From the left menu, select **Tags**.
 2. In the **Available Tags** list, find the tag name associated to the resources you wish to schedule.
-3. To the right of your tag, click the orange Schedule tag symbol, shown in Figure 6. This will bring up the schedule form.
+3. To the right of your tag, click the orange **Schedule tag** button, shown in Figure 6. This will bring up the schedule form.
 4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. *The tag values are provided to you in the dropdown list, shown in Figure 7 below.*
 5. In the** Attached Schedules** field, select the desired schedule or schedules from the dropdown list. 
 6. Click **Save** to save your changes.
@@ -188,11 +189,22 @@ Associating schedules to resources with Azure tags is the preferred method for m
 
 **FIGURE 7**. Adding VM resources directly to a schedule
 
-
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
+
+## Start and Stop VMs from Resource Scheduler<!-- omit in toc -->
+
+You can start and stop VMs directly from the Resource Scheduler portal. From the left menu, select **Resources**. 
+
+Which button appears depends on the current state of the VM:
+- The start button only appears for VMs currently in a stopped or deallocated state.
+- THe stop button only appears for VMs currently in a running state.
+
+**To START a VM:** Click the green ![start](https://github.com/lumagateinc/scheduler/blob/master/images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
+
+**To STOP a VM:** Click the stop ![stop](https://github.com/lumagateinc/scheduler/blob/master/images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
 
 ## Troubleshooting and Support<!-- omit in toc -->
 

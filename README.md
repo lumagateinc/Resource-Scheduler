@@ -231,6 +231,6 @@ To log a ticket, visit https://lumagate.us/support and click the "CONTACT US" bu
 
 ## Resource Scheduler Licensing<!-- omit in toc -->
 
-Resource scheduler is licensed according to the number of resources (VMs) you need to schedule. For pricing information, see ["Resource Scheduler Licensing"](https://lumagate.com/azure/pricing) on the Lumagate website.
+Resource scheduler is licensed according to the number of resources (VMs) you need to schedule. For pricing information, see ["Resource Scheduler Licensing"](https://lumagate.us/azure/pricing) on the Lumagate website.
 
 [back to ToC](#table-of-contents)

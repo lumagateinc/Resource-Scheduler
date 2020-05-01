@@ -1,10 +1,10 @@
-![Documentation Home](images/FAQs.png)
+![FAQ Home](images/FAQs.png)
 
 # Resource Scheduler FAQs
 
-- [Can I apply VM to multiple schedules?](#can-i-apply-vm-to-multiple-schedules)</br>
-- [How is Resource Scheduler licensed?](#how-is-sesource-scheduler-licensed)</br>
-- [Where should I add the tag for scheduling VMs?](#Where-should-I-add-the-tag-for-scheduling-vms)</br>
+- [Can I apply VM to multiple schedules?](#can-i-apply-vm-to-multiple-schedules)
+- [How is Resource Scheduler licensed?](#how-is-sesource-scheduler-licensed)
+- [Where should I add the tag for scheduling VMs?](#Where-should-I-add-the-tag-for-scheduling-vms)
 - 
 ## Can I apply VM to multiple schedules?<!-- omit in toc -->
 

@@ -1,4 +1,4 @@
-![Documentation Home](https://github.com/lumagateinc/scheduler/blob/master/images/FAQs.png)
+![Documentation Home](images/FAQs.png)
 
 # Resource Scheduler FAQs
 

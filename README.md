@@ -128,7 +128,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ## A quick note on Managed Identity<!-- omit in toc -->
 
-The managed identity is an account in the customer's directory that only Azure / Azure AD know the password of, similar to the Managed Service Account in Active Directory. When you connect a subscription, you authorize this account to have rights to the subscription, allowing it to start / stop, and inventory VMs and tags without a user signed in. (This is useful when the schedule kicks off before/after working hours, when you are not sitting at your computer).
+To complete scheduled actions, the Resource Scheduler uses a **managed identity**. The managed identity is an account in the customer's Azure Active Directory (AD) that only Azure / Azure AD know the password of, similar to the Managed Service Account in Active Directory. When you connect a subscription, you authorize this account to have rights to the subscription, allowing it to start, stop, and inventory VMs and tags without a user signed in. (This is useful when the schedule kicks off before/after working hours, when you are not sitting at your computer).
 
 ## Managing Schedules<!-- omit in toc -->
 

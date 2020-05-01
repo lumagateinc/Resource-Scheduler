@@ -3,7 +3,9 @@
 
 # Resource Scheduler<!-- omit in toc -->
 
-Resource Scheduler for Microsoft Azure provides a quick and easy way to create group schedules to stop and start VMs on the schedule (days and times) you specify.
+Resource Scheduler for Microsoft Azure provides a quick and easy way to create group schedules to stop and start Azure VMs on the schedule (days and times) you specify. 
+
+> **NOTE**: While additional resource types may be added in the future, "resources" in the current release refers to Azure VMs.
 
 ## Table of Contents<!-- omit in toc -->
 
@@ -78,6 +80,8 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ### Connect Subscriptions<!-- omit in toc -->
 
+You can associate multiple subscriptions to a single Resource Scheduler instance. The only requirement is that the subscriptions are associated to the same Azure AD tenant as the Resource Scheduler instance.
+
 *To connect a new subscription to the Resource Scheduler instance, perform the following steps:*
 
 1. From the left menu, select **Subscriptions**.
@@ -149,6 +153,25 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 Associating schedules to resources with tags is the preferred method for managing large numbers of resources as explained in [Managing Schedules](#managing-schedules) above.
 
 *To associate a tag to a schedule, perform the following steps:*
+
+First, you will create the schedule:
+
+1. From the left menu, select **Schedules**.
+2. Click the plus (+) sign by **Schedules**. This will bring up the schedule form.
+3. Complete the values in the schedule form. Leave the **Resources** field blank.
+4. Click **Save** to save your changes.
+
+Next, you will associate the schedule to a tag.
+
+1. From the left menu, select **Tags**.
+2. In the **Available Tags** list, find the tag associated to the resources you wish to schedule.
+3. To the right of your tag, click the orange Schedule tag button, shown in Figure 5. This will bring up the schedule form.
+4. Complete the values in the schedule form. Leave the **Resources** field blank.
+5. Click **Save** to save your changes.
+
+![schedtags](https://github.com/lumagateinc/scheduler/blob/master/images/avail_tags.png)
+
+**Figure 5**. Adding VM resources directly to a schedule
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").

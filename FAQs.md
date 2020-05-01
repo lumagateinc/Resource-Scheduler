@@ -3,7 +3,7 @@
 # Resource Scheduler FAQs
 
 - [Can I apply VM to multiple schedules?](#can-i-apply-vm-to-multiple-schedules)</br>
-- [Can I apply VM to multiple schedules?](#can-i-apply-vm-to-multiple-schedules)</br>
+- [How is Resource Scheduler licensed?](#how-is-sesource-scheduler-licensed)</br>
 
 ## Can I apply VM to multiple schedules?<!-- omit in toc -->
 

@@ -15,6 +15,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [Grant Permissions](#grant-permissions)</br>
   - [Connect Subscriptions](#connect-subscriptions)</br>
   - [Configure Time Zone](#configure-time-zone)</br>
+  - [A quick note on Managed Identity](#a-quick-note-on-managed-identity)</br>
 - [Managing Schedules](#managing-schedules)</br>
   - [Schedule Resources Directly](#schedule-resources-directly)</br>
   - [Schedule Resources by Tag](#schedule-resources-by-tag)</br>
@@ -125,6 +126,10 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
+## A quick note on Managed Identity<!-- omit in toc -->
+
+The managed identity is an account in the customer's directory that only Azure / Azure AD know the password of, similar to the Managed Service Account in Active Directory. When you connect a subscription, you authorize this account to have rights to the subscription, allowing it to start / stop, and inventory VMs and tags without a user signed in. (This is useful when the schedule kicks off before/after working hours, when you are not sitting at your computer).
+
 ## Managing Schedules<!-- omit in toc -->
 
 This section describes how to schedule resources for start and stop at the days and times you specify. There are two approaches for scheduling resources:
@@ -196,15 +201,23 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ## Start and Stop VMs from Resource Scheduler<!-- omit in toc -->
 
-You can start and stop VMs directly from the Resource Scheduler portal. From the left menu, select **Resources**. 
+You can start and stop VMs directly from the Resource Scheduler portal. 
 
-Which button appears depends on the current state of the VM:
+*To start or stop a VM, perform the following steps:*
+
+From the left menu, select **Resources**.
+
+Which button appears depends on the current state of the VM (shown in Figure 8):
 - The **Start** button ![start](https://github.com/lumagateinc/scheduler/blob/master/images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
 - THe **Stop** button ![stop](https://github.com/lumagateinc/scheduler/blob/master/images/stop.png) only appears for VMs currently in a *running* state.
 
 **To START a VM:** Click the green ![start](https://github.com/lumagateinc/scheduler/blob/master/images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
 
 **To STOP a VM:** Click the stop ![stop](https://github.com/lumagateinc/scheduler/blob/master/images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
+
+![schedtags](https://github.com/lumagateinc/scheduler/blob/master/images/resources.png)
+
+**FIGURE 8**. Start and Stop buttons for VM resources
 
 [back to ToC](#table-of-contents)
 
@@ -246,7 +259,6 @@ Visit **[https://\<tenant\>.azurewebsites.net/claims](https://\<tenant\>.azurewe
 To log a ticket, visit https://lumagate.us/support and click the "CONTACT US" button. In the form provided, select "Resource Scheduler" in the **Product** dropdown. Complete the required fields in the form and click **Submit**. A support ticket will be logged and routed automatically. You will receive an e-mail confirmation that your request was received.
 
 [back to ToC](#table-of-contents)
-
 
 ## Resource Scheduler Licensing<!-- omit in toc -->
 

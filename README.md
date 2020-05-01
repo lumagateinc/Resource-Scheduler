@@ -3,7 +3,7 @@
 
 # Resource Scheduler<!-- omit in toc -->
 
-Resource Scheduler for Microsoft Azure provides a quick and easy way to create group schedules to stop and start Azure VMs on the schedule (days and times) you specify. 
+The Resource Scheduler for Microsoft Azure provides a quick and easy way to create group schedules to stop and start Azure VMs on the schedule (days and times) you specify.
 
 > **NOTE**: While additional resource types may be added in the future, "resources" in the current release refers to Azure VMs.
 
@@ -47,7 +47,7 @@ This section covers the initial installation and configuration of the Resource S
 
 ![marketplace](https://github.com/lumagateinc/scheduler/blob/master/images/marketplace.png)
 
-**FIGURE 1**. Enterprise Apps list in Azure Active Directory
+**FIGURE 1**. Resource Scheduler in Azure Marketplace
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").

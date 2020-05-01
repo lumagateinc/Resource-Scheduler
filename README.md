@@ -124,7 +124,7 @@ This section describes how to schedule resources for start and stop at the days 
 1. **Scheduling resources directly**. With directly scheduling, you associate VMs to a schedule one at-a-time. This is great for smaller environments or schedules that affect a small number of VMs. 
 2. **Scheduling by tag**. This option will automatically associate the schedule to all Azure VMs with the tag you specify. This is the preferred option for bulk scheduling and large environments.
 
-**A note on multiple schedules**. Because you can set the specific combinations of day and times on a schedule, there should be minimal need for multiple schedules on a single VM. However, if you do need multiple schedules, you can use multiple tags on a VM, and associate a unique schedule to each tag.
+> **A note on multiple schedules**. Because you can set the specific combinations of day and times on a schedule, there should be minimal need for multiple schedules on a single VM. However, if you do need multiple schedules, you can use multiple tags on a VM, and associate a unique schedule to each tag.
 
 ### Schedule Resources Directly<!-- omit in toc -->
 

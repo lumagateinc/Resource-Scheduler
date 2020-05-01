@@ -29,6 +29,8 @@ A Resource Scheduler instance is associated to a single Azure Active Directory (
 - Resource Scheduler has a 1-1 relationship with your Azure AD tenant.
 - Resource Scheduler has a 1-many relationship with your Azure subscriptions associated to that Azure AD tenant.
 
+[back to ToC](#table-of-contents)
+
 ## Install and Configure<!-- omit in toc -->
 
 This section covers the initial installation and configuration of the Resource Scheduler.
@@ -166,8 +168,9 @@ Associating schedules to resources with tags is the preferred method for managin
 1. From the left menu, select **Tags**.
 2. In the **Available Tags** list, find the tag name associated to the resources you wish to schedule.
 3. To the right of your tag, click the orange Schedule tag button, shown in Figure 5. This will bring up the schedule form.
-4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. The tag values are provided to you in the dropdown list, shown in Figure 6 below.
-5. Click **Save** to save your changes.
+4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. *The tag values are provided to you in the dropdown list, shown in Figure 6 below.*
+5. In the** Attached Schedules** field, select the desired schedule or schedules from the dropdown list. 
+6. Click **Save** to save your changes.
 
 ![availtags](https://github.com/lumagateinc/scheduler/blob/master/images/avail_tags.png)
 

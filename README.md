@@ -21,6 +21,7 @@ Resource Scheduler for Microsoft Azure provides a quick and easy way to create g
 - [Troubleshooting and Support](#troubleshooting-and-support)</br>
   - [Viewing Resource Logs](#viewing-resource-logs)</br>
   - [Request Support](#request-support)</br>
+- [Resource Scheduler Licensing](#resource-scheduler-licensing)</br>
 
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->
 
@@ -165,7 +166,7 @@ Associating schedules to resources with tags is the preferred method for managin
 3. Complete the values in the schedule form. Leave the **Resources** field blank.
 4. Click **Save** to save your changes.
 
-**Next, you will associate the schedule to a tag:**
+**Next, you will associate the schedule to tags:**
 
 1. From the left menu, select **Tags**.
 2. In the **Available Tags** list, find the tag name associated to the resources you wish to schedule.
@@ -224,5 +225,12 @@ Visit **[https://\<tenant\>.azurewebsites.net/claims](https://\<tenant\>.azurewe
 **STEP 3: Log a ticket**
 
 To log a ticket, visit https://lumagate.us/support and click the "CONTACT US" button. In the form provided, select "Resource Scheduler" in the **Product** dropdown. Complete the required fields in the form and click **Submit**. A support ticket will be logged and routed automatically. You will receive an e-mail confirmation that your request was received.
+
+[back to ToC](#table-of-contents)
+
+
+## Resource Scheduler Licensing<!-- omit in toc -->
+
+Resource scheduler is licensed according to the number of resources (VMs) you need to schedule. For pricing information, see ["Resource Scheduler Licensing"](https://lumagate.com/azure/pricing) on the Lumagate website.
 
 [back to ToC](#table-of-contents)

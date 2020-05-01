@@ -127,7 +127,7 @@ This section describes how to schedule resources for start and stop at the days 
 1. **Scheduling resources directly**. With directly scheduling, you associate VMs to a schedule one at-a-time, using a simple search interface. *This is great for smaller environments or schedules that affect a small number of VMs.* See ["Schedule Resources Directly"](#schedule-resources-directly) for configuration steps.
 2. **Scheduling by tag**. This option will automatically associate the schedule to all Azure VMs with the tag you specify. *This is the preferred option for bulk scheduling and large environments.* See ["Schedule Resources by Tag"](#schedule-resources-by-tag) for configuration steps.
 
-> **A note on multiple schedules**. Because you can set the specific combinations of day and times on a schedule, there should be minimal need for multiple schedules on a single VM. However, if you do need multiple schedules, you can use multiple tags on a VM, and associate a unique schedule to each tag.
+> **A note on multiple schedules**. You can assign multiple schedules through direct assignment or using tags.
 
 ### Schedule Resources Directly<!-- omit in toc -->
 
@@ -156,7 +156,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ### Schedule Resources by Tag<!-- omit in toc -->
 
-Associating schedules to resources with tags is the preferred method for managing large numbers of resources as explained in [Managing Schedules](#managing-schedules) above.
+Associating schedules to resources with Azure tags is the preferred method for managing large numbers of resources as explained in [Managing Schedules](#managing-schedules) above. Resource Scheduler will recognize tags on the resource group containing the VM or the VM resource itself. If you are not familiar with tags in Azure, see ["Use tags to organize your Azure resources"](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources#portal). 
 
 *To associate a tag to a schedule, perform the following steps:*
 

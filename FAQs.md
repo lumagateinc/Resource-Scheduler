@@ -7,7 +7,9 @@
 
 ## Can I apply VM to multiple schedules?<!-- omit in toc -->
 
-Yes, by applying schedules to tags, you can apply multiple schedules. For step-by-instructions, see ["Schedule Resources by Tag"](https://github.com/lumagateinc/scheduler/#schedule-resources-by-tag)
+Yes, you can add a VM to multiples schedules through direct assignment or using tags. 
+
+- For step-by-instructions, see ["Managing Schedules"](https://github.com/lumagateinc/scheduler/#managing-schedules)
 
 ## How is Resource Scheduler licensed?<!-- omit in toc -->
 

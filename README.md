@@ -51,8 +51,6 @@ This section covers the initial installation and configuration of the Resource S
 
 **FIGURE 1**. Resource Scheduler in Azure Marketplace
 
-**Video demo:**
-Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
@@ -83,9 +81,6 @@ Menu appearance will vary by role assignment. Member of the **Administrator** ro
 
 **FIGURE 3**. Enterprise Apps list in Azure Active Directory
 
-**Video demo:**
-Step-by-step demo of this task [HERE](http://example.com/link "title").
-
 [back to ToC](#table-of-contents)
 
 ### Connect Subscriptions<!-- omit in toc -->
@@ -104,9 +99,6 @@ You can associate multiple subscriptions to a single Resource Scheduler instance
 2. From the **Connected Subscriptions**, find the subscription you want to remove.
 3. Click the red disconnect ![delete](https://github.com/lumagateinc/scheduler/blob/master/images/disconnect.png) button next to the right of the subscription. Click **Disconnect** to confirm the change.
 
-**Video demo:**
-Step-by-step demo of this task [HERE](http://example.com/link "title").
-
 [back to ToC](#table-of-contents)
 
 ### Configure Time Zone<!-- omit in toc -->
@@ -120,9 +112,6 @@ The time zone settings determines the time zone by which schedules will be set a
 3. Click **Save** to save your changes.
 
 **IMPORTANT!** If you change the Timezone setting after configuring schedules, it will change the time by which all schedules are evaluated! This should be clear from the time zone notices throughout the Resource Scheduler portal, but we wanted to mention it again here! :grin:
-
-**Video demo:**
-Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
@@ -161,14 +150,13 @@ Associating resources to schedules directly is the preferred method for managing
 
 **FIGURE 5**. Adding VM resources directly to a schedule
 
-**Video demo:**
-Step-by-step demo of this task [HERE](http://example.com/link "title").
-
 [back to ToC](#table-of-contents)
 
 ### Schedule Resources by Tag<!-- omit in toc -->
 
-Associating schedules to resources with Azure tags is the preferred method for managing large numbers of resources as explained in [Managing Schedules](#managing-schedules) above. Resource Scheduler will recognize tags on the resource group containing the VM or the VM resource itself. If you are not familiar with tags in Azure, see ["Use tags to organize your Azure resources"](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources#portal). 
+Associating schedules to resources with Azure tags is the preferred method for managing large numbers of resources as explained in [Managing Schedules](#managing-schedules) above. The Resource Scheduler looks for the tag values you specify when associating a schedule to a tag. If you are not familiar with tags in Azure, see ["Use tags to organize your Azure resources"](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources#portal).
+
+> **IMPORTANT REMINDER!** To avoid confusion and unintentional scheduling of VMs, the Resource Scheduler will look for tags **only on the VM resource itself**!
 
 *To associate a tag to a schedule, perform the following steps:*
 
@@ -195,9 +183,6 @@ Associating schedules to resources with Azure tags is the preferred method for m
 ![schedtags](https://github.com/lumagateinc/scheduler/blob/master/images/sched_tag.png)
 
 **FIGURE 7**. Adding VM resources directly to a schedule
-
-**Video demo:**
-Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
@@ -239,9 +224,6 @@ This section details where to view logs related to Resource Scheduler operation,
 3. Select the **Logs** tab.
 
 Events are listed in descending order (newest event at the top).
-
-**Video demo:**
-Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 

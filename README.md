@@ -45,6 +45,10 @@ This section covers the initial installation and configuration of the Resource S
 4. Click the "Resource Scheduler" tile in the search results.
 5. To install the Resource Scheduler, click the **Create** button.
 
+![marketplace](https://github.com/lumagateinc/scheduler/blob/master/images/marketplace.png)
+
+**FIGURE 1**. Enterprise Apps list in Azure Active Directory
+
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
@@ -63,19 +67,19 @@ The Resource Scheduler includes custom roles based on Azure role-based access co
 *To assign a Resource Scheduler role to a user or group, perform the following steps:*
 
 1. In the Azure portal or Office 365 Admin Center, select **Azure Active Directory**.
-2. Then, select Enterprise Applications. From the list, find and select Resource Scheduler (shown in Figure 1 below).
+2. Then, select Enterprise Applications. From the list, find and select Resource Scheduler (shown in Figure 2 below).
 3. Click **Add user > Users and Groups**. Then, select the user or group you wish to add the role. Click **Select** to save your changes.
 4. Next, click **Select Role**, and choose the role you would like to assign to the selected user or group (Administrator, Auditor, or Schedule Manager). Click **Select** to save your changes.
 
 ![entapps](https://github.com/lumagateinc/scheduler/blob/master/images/ent_apps.png)
 
-**FIGURE 1**. Enterprise Apps list in Azure Active Directory
+**FIGURE 2**. Enterprise Apps list in Azure Active Directory
 
-Menu appearance will vary by role assignment. Member of the **Administrator** role will see the Subscriptions and Settings menus, as shown in Figure 2.
+Menu appearance will vary by role assignment. Member of the **Administrator** role will see the Subscriptions and Settings menus, as shown in Figure 3.
 
 ![menus](https://github.com/lumagateinc/scheduler/blob/master/images/menus.png)
 
-**FIGURE 2**. Enterprise Apps list in Azure Active Directory
+**FIGURE 3**. Enterprise Apps list in Azure Active Directory
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -136,18 +140,18 @@ Associating resources to schedules directly is the preferred method for managing
 *To add VMs to a schedule, perform the following steps:*
 
 1. From the left menu, select **Schedules**.
-2. Click the plus (+) sign by **Schedules**, shown in Figure 3 below. This will bring up the schedule form.
+2. Click the plus (+) sign by **Schedules**, shown in Figure 4 below. This will bring up the schedule form.
 3. Complete the values in the schedule form.
-4. Add VMs in the Resources field, using the search and list controls, shown in Figure 4 below.
+4. Add VMs in the Resources field, using the search and list controls, shown in Figure 5 below.
 5. Click **Save** to save your changes.
 
 ![schedule](https://github.com/lumagateinc/scheduler/blob/master/images/schedules.png)
 
-**FIGURE 3**. Schedule menu in Resource Scheduler
+**FIGURE 4**. Schedule menu in Resource Scheduler
 
 ![schedule](https://github.com/lumagateinc/scheduler/blob/master/images/sched_res.png)
 
-**FIGURE 4**. Adding VM resources directly to a schedule
+**FIGURE 5**. Adding VM resources directly to a schedule
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -171,18 +175,18 @@ Associating schedules to resources with Azure tags is the preferred method for m
 
 1. From the left menu, select **Tags**.
 2. In the **Available Tags** list, find the tag name associated to the resources you wish to schedule.
-3. To the right of your tag, click the orange Schedule tag symbol, shown in Figure 5. This will bring up the schedule form.
-4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. *The tag values are provided to you in the dropdown list, shown in Figure 6 below.*
+3. To the right of your tag, click the orange Schedule tag symbol, shown in Figure 6. This will bring up the schedule form.
+4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. *The tag values are provided to you in the dropdown list, shown in Figure 7 below.*
 5. In the** Attached Schedules** field, select the desired schedule or schedules from the dropdown list. 
 6. Click **Save** to save your changes.
 
 ![availtags](https://github.com/lumagateinc/scheduler/blob/master/images/avail_tags.png)
 
-**FIGURE 5**. Adding VM resources directly to a schedule
+**FIGURE 6**. Adding VM resources directly to a schedule
 
 ![schedtags](https://github.com/lumagateinc/scheduler/blob/master/images/sched_tag.png)
 
-**FIGURE 6**. Adding VM resources directly to a schedule
+**FIGURE 7**. Adding VM resources directly to a schedule
 
 
 **Video demo:**

@@ -7,9 +7,7 @@
 
 ## Can I apply VM to multiple schedules?<!-- omit in toc -->
 
-Yes, you can add a VM to multiples schedules through direct assignment or using tags. 
-
-- For step-by-instructions, see ["Managing Schedules"](https://github.com/lumagateinc/scheduler/#managing-schedules)
+Yes, you can add a VM to multiples schedules through direct assignment or using tags. For step-by-instructions, see ["Managing Schedules"](https://github.com/lumagateinc/scheduler/#managing-schedules)
 
 [back to top](#resource-scheduler-faqs)
 

@@ -131,13 +131,17 @@ This section describes how to schedule resources for start and stop at the days 
 *To add VMs to a schedule, perform the following steps:*
 
 1. From the left menu, select **Schedules**.
-2. Click the plus (+) sign by Schedules, shown in Figure 3 below.
-3.  **Timezone**, select the desired time zone.
-4. Click **Save** to save your changes.
+2. Click the plus (+) sign by **Schedules**, shown in Figure 3 below. This will bring up the schedule form.
+3. Complete the values in the schedule form.
+4. Add VMs in the Resources field, using the search and list controls, shown in Figure 4 below.
 
 ![schedule](https://github.com/lumagateinc/scheduler/blob/master/images/schedules.png)
 
 **Figure 3**. Schedule menu in Resource Scheduler
+
+![schedule](https://github.com/lumagateinc/scheduler/blob/master/images/sched_res.png)
+
+**Figure 4**. Adding VM resources directly to a schedule
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").

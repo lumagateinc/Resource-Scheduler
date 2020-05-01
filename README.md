@@ -129,6 +129,8 @@ This section describes how to schedule resources for start and stop at the days 
 
 ### Schedule Resources Directly<!-- omit in toc -->
 
+Associating resources to schedules directly is the preferred method for managing small numbers of VMs, as explained in [Managing Schedules](#managing-schedules) above.
+
 *To add VMs to a schedule, perform the following steps:*
 
 1. From the left menu, select **Schedules**.

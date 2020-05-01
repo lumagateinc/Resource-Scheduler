@@ -206,6 +206,8 @@ Which button appears depends on the current state of the VM:
 
 **To STOP a VM:** Click the stop ![stop](https://github.com/lumagateinc/scheduler/blob/master/images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
 
+[back to ToC](#table-of-contents)
+
 ## Troubleshooting and Support<!-- omit in toc -->
 
 This section details where to view logs related to Resource Scheduler operation, as well as how to ask a question or request support.

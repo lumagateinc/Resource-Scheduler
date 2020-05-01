@@ -7,6 +7,7 @@ Resource Scheduler for Microsoft Azure provides a quick and easy way to create g
 
 ## Table of Contents<!-- omit in toc -->
 
+- [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)</br>
 - [Install and Configure](#install-and-configure)</br>
   - [Installation](#installation)</br>
   - [Grant Permissions](#grant-permissions)</br>
@@ -20,11 +21,24 @@ Resource Scheduler for Microsoft Azure provides a quick and easy way to create g
   - [View Logs](#view-logs)</br>
   - [Request Support](#request-support)</br>
 
+## Scope of a Resource Scheduler instance<!-- omit in toc -->
+
+A Resource Scheduler instance is associated to a single Azure Active Directory (AD) tenant. A Resource Scheduler instance can manage schedules for starting and stopping VMs in ALL Azure subscriptions associated with an Azure AD tenant. In other words:
+
+- Resource Scheduler has a 1-1 relationship with your Azure AD tenant.
+- Resource Scheduler has a 1-many relationship with your Azure subscriptions associated to that Azure AD tenant.
+
 ## Install and Configure<!-- omit in toc -->
 
 This section covers the initial installation and configuration of the Resource Scheduler.
 
 ### Installation<!-- omit in toc -->
+
+1. Browse to the Azure portal at https://portal.azure.com. Login using an account with Global Administrator rights.
+2. In the search box at the top of the browser window, type "Marketplace". Select the Marketplace icon to go to the Azure Marketplace.
+3. In the Marketplace search box, type "Resource Scheduler".
+4. Click the "Resource Scheduler" tile in the search results.
+5. To install the Resource Scheduler, click the **Create** button.
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -35,7 +49,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 The Resource Scheduler includes custom roles based on Azure role-based access control. Roles include:
 
-- **Administrator**. Enables a user to manage schedules for resources to which they have access, as well as to schedule. Additionally, this role can 
+- **Administrator**. Enables a user to manage schedules for resources to which they have access, as well as to schedule. Additionally, this role can add additional subscriptions to the Resource Scheduler instance.
 - **Schedule Manager**. Enables a user to manage schedules for resources to which they have access, as well as to schedule.
 - **Auditor**. This role has read-only access to resources, schedules, logs, and subscriptions connected to the Resource Scheduler instance.
 
@@ -54,7 +68,7 @@ The Resource Scheduler includes custom roles based on Azure role-based access co
 
 Menu appearance will vary by role assignment. Member of the **Administrator** role will see the Subscriptions and Settings menus, as shown in Figure 2.
 
-![entapps](https://github.com/lumagateinc/scheduler/blob/master/images/menus.png)
+![menus](https://github.com/lumagateinc/scheduler/blob/master/images/menus.png)
 
 **Figure 2**. Enterprise Apps list in Azure Active Directory
 
@@ -67,12 +81,32 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 *To connect a new subscription to the Resource Scheduler instance, perform the following steps:*
 
+1. From the left menu, select **Subscriptions**.
+2. From the **Available Subscriptions**, find the subscription you want to add.
+3. Click the plus (+) symbol next to the right of the subscription. Click **Connect** to confirm the change.
+
+*To **disconnect** a subscription to the Resource Scheduler instance, perform the following steps:*
+
+1. From the left menu, select **Subscriptions**.
+2. From the **Connected Subscriptions**, find the subscription you want to remove.
+3. Click the plus red and white delete symbol next to the right of the subscription. Click **Disconnect** to confirm the change.
+
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
 
 ### Configure Time Zone<!-- omit in toc -->
+
+The time zone settings determines the time zone by which schedules will be set and displayed in the Resource Scheduler portal. Only a user in the Resource Scheduler Administrator role can change this setting.
+
+*To connect a new subscription to the Resource Scheduler instance, perform the following steps:*
+
+1. From the left menu, select **Settings**.
+2. Under **Timezone**, select the desired time zone.
+3. Click **Save** to save your changes.
+
+**IMPORTANT!** If you change the Timezone setting after configuring schedules, it will change the time by which all schedules are evaluated! This should be clear from the time zone notices throughout the Resource Scheduler portal, but we wanted to mention it again here! :grin:
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -120,12 +154,16 @@ This section details where to view logs related to Resource Scheduler operation,
 
 *To view logs related to a resource, perform the following steps:*
 
+1. From the left menu, select **Schedules**.
+2. Click the **Expand details** icon to the right of the resource (VM) in question.
+3. Select the **Logs** tab.
+
+Events are listed in descending order (newest event at the top).
+
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 [back to ToC](#table-of-contents)
-
-### View Logs<!-- omit in toc -->
 
 ### Request Support<!-- omit in toc -->
 
@@ -143,4 +181,6 @@ Visit **[https://\<tenant\>.azurewebsites.net/claims](https://\<tenant\>.azurewe
 
 **STEP 3: Log a ticket**
 
-To log a ticket, visit https://lumagate.us/support and click the "CONTACT US" button. Complete the form, which will log a ticket, and send you a confirmation email with case number.
+To log a ticket, visit https://lumagate.us/support and click the "CONTACT US" button. In the form provided, select "Resource Scheduler" in the **Product** dropdown. Complete the required fields in the form and click **Submit**. A support ticket will be logged and routed automatically. You will receive an e-mail confirmation that your request was received.
+
+[back to ToC](#table-of-contents)

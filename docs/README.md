@@ -1,8 +1,6 @@
 
 ![Documentation Home](images/header_img.png)
 
-# Resource Scheduler<!-- omit in toc -->
-
 The Resource Scheduler for Microsoft Azure provides a quick and easy way to create group schedules to stop and start Azure VMs on the schedule (days and times) you specify.
 
 > **NOTE**: While additional resource types may be added in the future, "resources" in the current release refers to Azure VMs.

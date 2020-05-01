@@ -65,13 +65,13 @@ The Resource Scheduler includes custom roles based on Azure role-based access co
 
 ![entapps](https://github.com/lumagateinc/scheduler/blob/master/images/ent_apps.png)
 
-**Figure 1**. Enterprise Apps list in Azure Active Directory
+**FIGURE 1**. Enterprise Apps list in Azure Active Directory
 
 Menu appearance will vary by role assignment. Member of the **Administrator** role will see the Subscriptions and Settings menus, as shown in Figure 2.
 
 ![menus](https://github.com/lumagateinc/scheduler/blob/master/images/menus.png)
 
-**Figure 2**. Enterprise Apps list in Azure Active Directory
+**FIGURE 2**. Enterprise Apps list in Azure Active Directory
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -137,11 +137,11 @@ This section describes how to schedule resources for start and stop at the days 
 
 ![schedule](https://github.com/lumagateinc/scheduler/blob/master/images/schedules.png)
 
-**Figure 3**. Schedule menu in Resource Scheduler
+**FIGURE 3**. Schedule menu in Resource Scheduler
 
 ![schedule](https://github.com/lumagateinc/scheduler/blob/master/images/sched_res.png)
 
-**Figure 4**. Adding VM resources directly to a schedule
+**FIGURE 4**. Adding VM resources directly to a schedule
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
@@ -164,14 +164,21 @@ First, you will create the schedule:
 Next, you will associate the schedule to a tag.
 
 1. From the left menu, select **Tags**.
-2. In the **Available Tags** list, find the tag associated to the resources you wish to schedule.
+2. In the **Available Tags** list, find the tag name associated to the resources you wish to schedule.
 3. To the right of your tag, click the orange Schedule tag button, shown in Figure 5. This will bring up the schedule form.
-4. Complete the values in the schedule form. Leave the **Resources** field blank.
+4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. The tag values are provided to you in the dropdown list, shown in Figure 6 below.
 5. Click **Save** to save your changes.
 
-![schedtags](https://github.com/lumagateinc/scheduler/blob/master/images/avail_tags.png)
+![availtags](https://github.com/lumagateinc/scheduler/blob/master/images/avail_tags.png)
 
-**Figure 5**. Adding VM resources directly to a schedule
+**FIGURE 5**. Adding VM resources directly to a schedule
+
+
+
+![schedtags](https://github.com/lumagateinc/scheduler/blob/master/images/sched_tag.png)
+
+**FIGURE 6**. Adding VM resources directly to a schedule
+
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").

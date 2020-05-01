@@ -22,6 +22,7 @@ Resource Scheduler for Microsoft Azure provides a quick and easy way to create g
   - [Viewing Resource Logs](#viewing-resource-logs)</br>
   - [Request Support](#request-support)</br>
 - [Resource Scheduler Licensing](#resource-scheduler-licensing)</br>
+- [Frequently Asked Questions](#frequently-asked-questions)</br>
 
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->
 
@@ -232,5 +233,11 @@ To log a ticket, visit https://lumagate.us/support and click the "CONTACT US" bu
 ## Resource Scheduler Licensing<!-- omit in toc -->
 
 Resource scheduler is licensed according to the number of resources (VMs) you need to schedule. For pricing information, see ["Resource Scheduler Licensing"](https://lumagate.us/azure/pricing) on the Lumagate website.
+
+[back to ToC](#table-of-contents)
+
+## Frequently Asked Questions<!-- omit in toc -->
+
+Frequently asked questions are maintained on our [FAQs Page](https://github.com/lumagateinc/scheduler/FAQs.md)
 
 [back to ToC](#table-of-contents)

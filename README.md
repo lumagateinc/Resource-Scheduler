@@ -201,7 +201,7 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 ## Start and Stop VMs from Resource Scheduler<!-- omit in toc -->
 
-You can start and stop VMs directly from the Resource Scheduler portal. 
+If desired, you can start and stop VMs on-demand directly from the Resource Scheduler portal.
 
 *To start or stop a VM, perform the following steps:*
 
@@ -211,11 +211,12 @@ You can start and stop VMs directly from the Resource Scheduler portal.
    - The **Start** button ![start](https://github.com/lumagateinc/scheduler/blob/master/images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
    - THe **Stop** button ![stop](https://github.com/lumagateinc/scheduler/blob/master/images/stop.png) only appears for VMs currently in a *running* state.
 
-Start and Stop button state is shown in Figure 8.
+3. Press the appropriate button to start or stop the VM in Figure 8.
 
-**To START a VM:** Click the green ![start](https://github.com/lumagateinc/scheduler/blob/master/images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
+   - **To START a VM:** Click the green ![start](https://github.com/lumagateinc/scheduler/blob/master/images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
+   - **To STOP a VM:** Click the stop ![stop](https://github.com/lumagateinc/scheduler/blob/master/images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
 
-**To STOP a VM:** Click the stop ![stop](https://github.com/lumagateinc/scheduler/blob/master/images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
+> **NOTE**: The state of the VM may take up to 5 minutes after button press to reflect the change in state, as mentioned on the confirmation screen.
 
 ![schedtags](https://github.com/lumagateinc/scheduler/blob/master/images/resources.png)
 

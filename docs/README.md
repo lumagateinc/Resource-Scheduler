@@ -1,5 +1,5 @@
 
-![Documentation Home](./images/header_img.png)
+![Documentation Home](images/header_img.png)
 
 # Resource Scheduler<!-- omit in toc -->
 
@@ -47,7 +47,7 @@ This section covers the initial installation and configuration of the Resource S
 4. Click the "Resource Scheduler" tile in the search results.
 5. To install the Resource Scheduler, click the **Create** button.
 
-![marketplace](./images/marketplace.png)
+![marketplace](images/marketplace.png)
 
 **FIGURE 1**. Resource Scheduler in Azure Marketplace
 
@@ -71,13 +71,13 @@ The Resource Scheduler includes custom roles based on Azure role-based access co
 3. Click **Add user > Users and Groups**. Then, select the user or group you wish to add the role. Click **Select** to save your changes.
 4. Next, click **Select Role**, and choose the role you would like to assign to the selected user or group (Administrator, Auditor, or Schedule Manager). Click **Select** to save your changes.
 
-![entapps](./images/ent_apps.png)
+![entapps](images/ent_apps.png)
 
 **FIGURE 2**. Enterprise Apps list in Azure Active Directory
 
 Menu appearance will vary by role assignment. Member of the **Administrator** role will see the Subscriptions and Settings menus, as shown in Figure 3.
 
-![menus](./images/menus.png)
+![menus](images/menus.png)
 
 **FIGURE 3**. Enterprise Apps list in Azure Active Directory
 
@@ -91,13 +91,13 @@ You can associate multiple subscriptions to a single Resource Scheduler instance
 
 1. From the left menu, select **Subscriptions**.
 2. From the **Available Subscriptions**, find the subscription you want to add.
-3. Click the blue add ![add](./images/add.png) button next to the right of the subscription. Click **Connect** to confirm the change.
+3. Click the blue add ![add](images/add.png) button next to the right of the subscription. Click **Connect** to confirm the change.
 
 *To **disconnect** a subscription to the Resource Scheduler instance, perform the following steps:*
 
 1. From the left menu, select **Subscriptions**.
 2. From the **Connected Subscriptions**, find the subscription you want to remove.
-3. Click the red disconnect ![delete](./images/disconnect.png) button next to the right of the subscription. Click **Disconnect** to confirm the change.
+3. Click the red disconnect ![delete](images/disconnect.png) button next to the right of the subscription. Click **Disconnect** to confirm the change.
 
 [back to ToC](#table-of-contents)
 
@@ -142,11 +142,11 @@ Associating resources to schedules directly is the preferred method for managing
 4. Add VMs in the Resources field, using the search and list controls, shown in Figure 5 below.
 5. Click **Save** to save your changes.
 
-![schedule](./images/schedules.png)
+![schedule](images/schedules.png)
 
 **FIGURE 4**. Schedule menu in Resource Scheduler
 
-![schedule](./images/sched_res.png)
+![schedule](images/sched_res.png)
 
 **FIGURE 5**. Adding VM resources directly to a schedule
 
@@ -176,11 +176,11 @@ Associating schedules to resources with Azure tags is the preferred method for m
 5. In the** Attached Schedules** field, select the desired schedule or schedules from the dropdown list. 
 6. Click **Save** to save your changes.
 
-![availtags](./images/avail_tags.png)
+![availtags](images/avail_tags.png)
 
 **FIGURE 6**. Adding VM resources directly to a schedule
 
-![schedtags](./images/sched_tag.png)
+![schedtags](images/sched_tag.png)
 
 **FIGURE 7**. Adding VM resources directly to a schedule
 
@@ -195,17 +195,17 @@ If desired, you can start and stop VMs on-demand directly from the Resource Sche
 1. From the left menu, select **Resources**.
 
 2. Then, click the Start or Stop button as appropriate. Which button appears depends on the current state of the VM:
-   - The **Start** button ![start](./images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
-   - THe **Stop** button ![stop](./images/stop.png) only appears for VMs currently in a *running* state.
+   - The **Start** button ![start](images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
+   - THe **Stop** button ![stop](images/stop.png) only appears for VMs currently in a *running* state.
 
 3. Press the appropriate button to start or stop the VM in Figure 8.
 
-   - **To START a VM:** Click the green ![start](./images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
-   - **To STOP a VM:** Click the stop ![stop](./images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
+   - **To START a VM:** Click the green ![start](images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
+   - **To STOP a VM:** Click the stop ![stop](images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
 
 > **NOTE**: The state of the VM may take up to 5 minutes after button press to reflect the change in state, as mentioned on the confirmation screen.
 
-![schedtags](./images/resources.png)
+![schedtags](images/resources.png)
 
 **FIGURE 8**. Start and Stop buttons for VM resources
 

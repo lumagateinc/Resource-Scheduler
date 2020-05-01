@@ -9,22 +9,22 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 
 ## Table of Contents<!-- omit in toc -->
 
-- [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)</br>
-- [Install and Configure](#install-and-configure)</br>
-  - [Installation](#installation)</br>
-  - [Grant Permissions](#grant-permissions)</br>
-  - [Connect Subscriptions](#connect-subscriptions)</br>
-  - [Configure Time Zone](#configure-time-zone)</br>
-  - [A quick note on Managed Identity](#a-quick-note-on-managed-identity)</br>
-- [Managing Schedules](#managing-schedules)</br>
-  - [Schedule Resources Directly](#schedule-resources-directly)</br>
-  - [Schedule Resources by Tag](#schedule-resources-by-tag)</br>
-- [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)</br>
-- [Troubleshooting and Support](#troubleshooting-and-support)</br>
-  - [Viewing Resource Logs](#viewing-resource-logs)</br>
-  - [Request Support](#request-support)</br>
-- [Resource Scheduler Licensing](#resource-scheduler-licensing)</br>
-- [Frequently Asked Questions](#frequently-asked-questions)</br>
+- [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)
+- [Install and Configure](#install-and-configure)
+  - [Installation](#installation)
+  - [Grant Permissions](#grant-permissions)
+  - [Connect Subscriptions](#connect-subscriptions)
+  - [Configure Time Zone](#configure-time-zone)
+  - [A quick note on Managed Identity](#a-quick-note-on-managed-identity)
+- [Managing Schedules](#managing-schedules)
+  - [Schedule Resources Directly](#schedule-resources-directly)
+  - [Schedule Resources by Tag](#schedule-resources-by-tag)
+- [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)
+- [Troubleshooting and Support](#troubleshooting-and-support)
+  - [Viewing Resource Logs](#viewing-resource-logs)
+  - [Request Support](#request-support)
+- [Resource Scheduler Licensing](#resource-scheduler-licensing)
+- [Frequently Asked Questions](#frequently-asked-questions)
 
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->
 

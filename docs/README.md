@@ -255,6 +255,6 @@ Resource scheduler is licensed according to the number of resources (VMs) you ne
 
 ## Frequently Asked Questions<!-- omit in toc -->
 
-Frequently asked questions are maintained on our [FAQs Page](https://github.com/lumagateinc/scheduler/blob/master/FAQs.md)
+Frequently asked questions are maintained on our [FAQs Page](https://github.com/lumagateinc/scheduler/blob/master/docs/FAQs.md)
 
 [back to ToC](#table-of-contents)

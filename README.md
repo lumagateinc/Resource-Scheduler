@@ -89,13 +89,13 @@ You can associate multiple subscriptions to a single Resource Scheduler instance
 
 1. From the left menu, select **Subscriptions**.
 2. From the **Available Subscriptions**, find the subscription you want to add.
-3. Click the add ![add](https://github.com/lumagateinc/scheduler/blob/master/images/add.png) symbol next to the right of the subscription. Click **Connect** to confirm the change.
+3. Click the blue add ![add](https://github.com/lumagateinc/scheduler/blob/master/images/add.png) symbol next to the right of the subscription. Click **Connect** to confirm the change.
 
 *To **disconnect** a subscription to the Resource Scheduler instance, perform the following steps:*
 
 1. From the left menu, select **Subscriptions**.
 2. From the **Connected Subscriptions**, find the subscription you want to remove.
-3. Click the plus red and white disconnect ![delete](https://github.com/lumagateinc/scheduler/blob/master/images/disconnect.png) symbol next to the right of the subscription. Click **Disconnect** to confirm the change.
+3. Click the red disconnect ![delete](https://github.com/lumagateinc/scheduler/blob/master/images/disconnect.png) symbol next to the right of the subscription. Click **Disconnect** to confirm the change.
 
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").

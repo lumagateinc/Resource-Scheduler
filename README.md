@@ -18,7 +18,7 @@ Resource Scheduler for Microsoft Azure provides a quick and easy way to create g
   - [Schedule Resources Directly](#schedule-resources-directly)</br>
   - [Schedule Resources by Tag](#schedule-resources-by-tag)</br>
 - [Troubleshooting and Support](#troubleshooting-and-support)</br>
-  - [View Logs](#view-logs)</br>
+  - [Viewing Resource Logs](#viewing-resource-logs)</br>
   - [Request Support](#request-support)</br>
 
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->

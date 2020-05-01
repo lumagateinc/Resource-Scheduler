@@ -171,7 +171,7 @@ Associating schedules to resources with Azure tags is the preferred method for m
 
 1. From the left menu, select **Tags**.
 2. In the **Available Tags** list, find the tag name associated to the resources you wish to schedule.
-3. To the right of your tag, click the orange Schedule tag button, shown in Figure 5. This will bring up the schedule form.
+3. To the right of your tag, click the orange Schedule tag symbol, shown in Figure 5. This will bring up the schedule form.
 4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. *The tag values are provided to you in the dropdown list, shown in Figure 6 below.*
 5. In the** Attached Schedules** field, select the desired schedule or schedules from the dropdown list. 
 6. Click **Save** to save your changes.

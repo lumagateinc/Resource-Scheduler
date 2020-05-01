@@ -107,7 +107,7 @@ You can associate multiple subscriptions to a single Resource Scheduler instance
 **Video demo:**
 Step-by-step demo of this task [HERE](http://example.com/link "title").
 
-[back to ToC](#table-of-contents)
+![ToC](https://github.com/lumagateinc/scheduler/blob/master/images/toc.png)
 
 ### Configure Time Zone<!-- omit in toc -->
 

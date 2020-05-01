@@ -11,6 +11,10 @@ Yes, you can add a VM to multiples schedules through direct assignment or using 
 
 - For step-by-instructions, see ["Managing Schedules"](https://github.com/lumagateinc/scheduler/#managing-schedules)
 
+[back to top](#resource-scheduler-faqs)
+
 ## How is Resource Scheduler licensed?<!-- omit in toc -->
 
 The Resource Scheduler for Microsoft Azure is licensed based on the number of VMs you intend to create schedules for. For pricing details, see ["Resource Scheduler Pricing"](https://lumagate.us/azure/pricing).
+
+[back to top](#resource-scheduler-faqs)

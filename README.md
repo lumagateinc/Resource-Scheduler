@@ -205,9 +205,9 @@ You can start and stop VMs directly from the Resource Scheduler portal.
 
 *To start or stop a VM, perform the following steps:*
 
-From the left menu, select **Resources**.
+1. From the left menu, select **Resources**.
 
-Which button appears depends on the current state of the VM:
+2. Then, click the Start or Stop button as appropriate. Which button appears depends on the current state of the VM:
 - The **Start** button ![start](https://github.com/lumagateinc/scheduler/blob/master/images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
 - THe **Stop** button ![stop](https://github.com/lumagateinc/scheduler/blob/master/images/stop.png) only appears for VMs currently in a *running* state.
 

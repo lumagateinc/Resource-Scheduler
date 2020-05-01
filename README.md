@@ -171,13 +171,13 @@ Step-by-step demo of this task [HERE](http://example.com/link "title").
 
 **STEP 1: Check the FAQs**
 
-[HERE](http://example.com/link "title")gin by checking our FAQs to see if your question is answered there. If it is not, proceed to STEP 2.
+Begin by checking our FAQs to see if your question is answered there. If it is not, proceed to STEP 2.
 
 **STEP 2: Screenshot your Claims**
 
 Visit **[https://\<tenant\>.azurewebsites.net/claims](https://\<tenant\>.azurewebsites.net/claims)** and capture a screenshot of the claims associated with your account. If you are logging a request for another user, ask them to capture this data and forward to you.
 
-> **IMPORTANT!** [HERE](http://example.com/link "title") sure to complete this step. You will need to attach this info to your support request.
+> **IMPORTANT!** Be sure to complete this step. Your support analyst may ask for this information.
 
 **STEP 3: Log a ticket**
 

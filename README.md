@@ -154,14 +154,14 @@ Associating schedules to resources with tags is the preferred method for managin
 
 *To associate a tag to a schedule, perform the following steps:*
 
-First, you will create the schedule:
+**First, you will create the schedule:**
 
 1. From the left menu, select **Schedules**.
 2. Click the plus (+) sign by **Schedules**. This will bring up the schedule form.
 3. Complete the values in the schedule form. Leave the **Resources** field blank.
 4. Click **Save** to save your changes.
 
-Next, you will associate the schedule to a tag.
+**Next, you will associate the schedule to a tag:**
 
 1. From the left menu, select **Tags**.
 2. In the **Available Tags** list, find the tag name associated to the resources you wish to schedule.
@@ -172,8 +172,6 @@ Next, you will associate the schedule to a tag.
 ![availtags](https://github.com/lumagateinc/scheduler/blob/master/images/avail_tags.png)
 
 **FIGURE 5**. Adding VM resources directly to a schedule
-
-
 
 ![schedtags](https://github.com/lumagateinc/scheduler/blob/master/images/sched_tag.png)
 

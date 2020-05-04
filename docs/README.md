@@ -194,7 +194,7 @@ If desired, you can start and stop VMs on-demand directly from the Resource Sche
 
 2. Then, click the Start or Stop button as appropriate. Which button appears depends on the current state of the VM:
    - The **Start** button ![start](images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
-   - THe **Stop** button ![stop](images/stop.png) only appears for VMs currently in a *running* state.
+   - The **Stop** button ![stop](images/stop.png) only appears for VMs currently in a *running* state.
 
 3. Press the appropriate button to start or stop the VM in Figure 8.
 

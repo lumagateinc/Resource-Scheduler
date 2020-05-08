@@ -2,14 +2,14 @@
 
 # Resource Scheduler FAQs
 
-- [Can I apply VM to multiple schedules?](#can-i-apply-vm-to-multiple-schedules)
+- [Can I add a VM to multiple schedules?](#can-i-add-a-vm-to-multiple-schedules)
 - [How is Resource Scheduler licensed?](#how-is-sesource-scheduler-licensed)
 - [Where should I add the tag for scheduling VMs?](#Where-should-I-add-the-tag-for-scheduling-vms)
 - [How can I request support?](#how-can-i-request-support)
 - [Do you have a partner program?](#do-you-have-a-partner-program)
 - [Back to Product Documentation](https://lumagateinc.github.io/Resource-Scheduler/)
 
-## Can I apply VM to multiple schedules?<!-- omit in toc -->
+## Can I add a VM to multiple schedules?<!-- omit in toc -->
 
 Yes, you can add a VM to multiples schedules through direct assignment or using tags. For step-by-instructions, see ["Managing Schedules"](https://github.com/lumagateinc/scheduler/#managing-schedules)
 
@@ -29,7 +29,7 @@ To avoid confusion and unintentional scheduling of VMs, the Resource Scheduler o
 
 ## How can I request support?<!-- omit in toc -->
 
-Email support is included in the cost of the product. Instructions for requesting support are available in in the product documentation in the ["Request Support"](https://lumagate.us/azure/pricing) section.
+Email support is included in the cost of the product. Instructions for requesting support are available in in the product documentation in the ["Request Support"](https://lumagateinc.github.io/Resource-Scheduler/#request-support) section.
 
 [back to top](#resource-scheduler-faqs)
 

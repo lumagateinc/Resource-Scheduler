@@ -4,8 +4,8 @@ The Registered Partner Program for Lumagate's Resource Scheduler for Microsoft A
 
 ## Table of Contents<!-- omit in toc -->
 
-- [Benefits of the Registered Partner Program](#Benefits of the Registered Partner Program)
-- [Program Conditions](#Program Restrictions)
+- [Benefits of the Registered Partner Program](#benefits-of-the-registered-partner-program)
+- [Program Conditions](#Program Conditions)
 - [Registration Process](#Registration Process)
 
 ## Benefits of the Registered Partner Program<!-- omit in toc -->

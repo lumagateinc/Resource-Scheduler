@@ -7,6 +7,7 @@
 - [Where should I add the tag for scheduling VMs?](#Where-should-I-add-the-tag-for-scheduling-vms)
 - [How can I request support?](#how-can-i-request-support)
 - [Do you have a partner program?](#do-you-have-a-partner-program)
+- [Back to Product Documentation](https://lumagateinc.github.io)
 
 ## Can I apply VM to multiple schedules?<!-- omit in toc -->
 

@@ -22,7 +22,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [Request Support](#request-support)
 - [Resource Scheduler Licensing](#resource-scheduler-licensing)
 - [Frequently Asked Questions](#frequently-asked-questions)
-- [Registered Partner Program](#regisetered-partner-program)
+- [Registered Partner Program](#registered-partner-program)
   
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->
 

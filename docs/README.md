@@ -23,7 +23,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 - [Resource Scheduler Licensing](#resource-scheduler-licensing)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Registered Partner Program](#regisetered-partner-program)
-- 
+  
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->
 
 A Resource Scheduler instance is associated to a single Azure Active Directory (AD) tenant. A Resource Scheduler instance can manage schedules for starting and stopping VMs in ALL Azure subscriptions associated with an Azure AD tenant. In other words:

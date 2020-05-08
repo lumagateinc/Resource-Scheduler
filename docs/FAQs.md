@@ -24,6 +24,10 @@ To avoid confusion and unintentional scheduling of VMs, the Resource Scheduler o
 
 [back to top](#resource-scheduler-faqs)
 
+## How can I request support?<!-- omit in toc -->
+
+Email support is included in the cost of the product. Instructions for requesting support are available in in the product documentation in the ["Request Support"](https://lumagate.us/azure/pricing) section.
+
 ## Do you have a partner program for systems integrators and managed service providers?<!-- omit in toc -->
 
 Yes. Prospective partners can easily register for Lumagate's Resource Scheduler partner program on our [Registered Partner Program](/Partners.md) page.

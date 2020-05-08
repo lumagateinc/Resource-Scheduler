@@ -23,7 +23,8 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [Request Support](#request-support)
 - [Resource Scheduler Licensing](#resource-scheduler-licensing)
 - [Frequently Asked Questions](#frequently-asked-questions)
-
+- [Registered Partner Program](#frequently-asked-questions)
+- 
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->
 
 A Resource Scheduler instance is associated to a single Azure Active Directory (AD) tenant. A Resource Scheduler instance can manage schedules for starting and stopping VMs in ALL Azure subscriptions associated with an Azure AD tenant. In other words:
@@ -227,7 +228,11 @@ Events are listed in descending order (newest event at the top).
 
 ### Request Support<!-- omit in toc -->
 
+E-mail support is available to Resource Scheduler customers.
+
 *To request support, perform the following steps:*
+
+>**NOTICE OF SUPPORT HOURS**: Support hours for Resource Scheduler are 8am - 6pm Eastern Time, Monday-Friday.
 
 **STEP 1: Check the FAQs**
 
@@ -254,5 +259,11 @@ Resource scheduler is licensed according to the number of resources (VMs) you ne
 ## Frequently Asked Questions<!-- omit in toc -->
 
 Frequently asked questions are maintained on our [FAQs Page](/FAQs.md)
+
+[back to ToC](#table-of-contents)
+
+## Registered Partner Program<!-- omit in toc -->
+
+Prospective partners can learn more about Lumagate's Resource Scheduler partner program on our [Registered Partner Program](/Partners.md) page.
 
 [back to ToC](#table-of-contents)

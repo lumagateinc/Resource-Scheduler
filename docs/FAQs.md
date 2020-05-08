@@ -23,3 +23,11 @@ The Resource Scheduler for Microsoft Azure is licensed based on the number of VM
 To avoid confusion and unintentional scheduling of VMs, the Resource Scheduler only looks for tag name and value on the VM itself. Tags on the resource group are intentionally ignored.
 
 [back to top](#resource-scheduler-faqs)
+
+## Do you have a partner program for systems integrators and managed service providers?<!-- omit in toc -->
+
+Yes. Prospective partners can easily register for Lumagate's Resource Scheduler partner program on our [Registered Partner Program](/Partners.md) page.
+
+[back to top](#resource-scheduler-faqs)
+
+[Product Documentation](https://lumagateinc.github.io/Resource-Scheduler/)

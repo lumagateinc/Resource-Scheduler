@@ -5,7 +5,7 @@ The Registered Partner Program for Lumagate's Resource Scheduler for Microsoft A
 ## Table of Contents<!-- omit in toc -->
 
 - [Benefits of the Registered Partner Program](#Benefits of the Registered Partner Program)
-- [Program Restrictions](#Program Restrictions)
+- [Program Conditions](#Program Restrictions)
 - [Registration Process](#Registration Process)
 
 ## Benefits of the Registered Partner Program<!-- omit in toc -->
@@ -17,9 +17,9 @@ The purpose of the partner program for the Resource Scheduler for Microsoft Azur
 - Receive access to special offers on Resource Scheduler you can share with prospective customers.
 - Access to e-mail product support.
 
-## Program Restrictions<!-- omit in toc -->
+## Program Conditions<!-- omit in toc -->
 
-Partners agree to abide by the conditions outlined in the registered partner agreement, which you will receive via email. Complete the registration details below to receive a copy of the partner agreement.
+Partners agree to abide by the conditions outlined in the registered partner agreement, which you will receive via email. **Complete the registration details below to receive a copy of the partner agreement.**
 
 ## Registration Process<!-- omit in toc -->
 

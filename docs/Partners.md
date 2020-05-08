@@ -35,7 +35,7 @@ Prospective partners can easily register for Lumagate's Resource Scheduler partn
 
 3. When you receive the contract, review and sign in the field provided.
 
-4. You will then be added to our partner database, and sent a message to confirm the email address you provided for product-related announcements and offers you may extend to your prospective cutomers.
+4. You will then be added to our partner database, and sent a message to confirm the email address you provided for product-related announcements and offers you may extend to your prospective customers.
 
 If you have additional questions, please contact us at https://lumagate.us/contact. Select "Resource Scheduler" in the product field of our Contact form.
 

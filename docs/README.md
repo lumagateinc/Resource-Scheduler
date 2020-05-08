@@ -235,7 +235,7 @@ E-mail support is available to Resource Scheduler customers.
 
 **STEP 1: Check the FAQs**
 
-Begin by checking our FAQs to see if your question is answered there. If it is not, proceed to STEP 2.
+Begin by checking our [FAQs Page](/FAQs.md) to see if your question is answered there. If it is not, proceed to STEP 2.
 
 **STEP 2: Screenshot your Claims**
 

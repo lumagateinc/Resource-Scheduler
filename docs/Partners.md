@@ -17,9 +17,13 @@ The purpose of the partner program for the Resource Scheduler for Microsoft Azur
 - Receive access to special offers on Resource Scheduler you can share with prospective customers.
 - Access to e-mail product support.
 
+[back to ToC](#table-of-contents)
+
 ## Program Conditions<!-- omit in toc -->
 
 Partners agree to abide by the conditions outlined in the registered partner agreement, which you will receive via email. **Complete the registration details below to receive a copy of the partner agreement.**
+
+[back to ToC](#table-of-contents)
 
 ## Registration Process<!-- omit in toc -->
 

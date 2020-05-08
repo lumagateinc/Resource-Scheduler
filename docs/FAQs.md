@@ -3,8 +3,8 @@
 # Resource Scheduler FAQs
 
 - [Can I add a VM to multiple schedules?](#can-i-add-a-vm-to-multiple-schedules)
-- [How is Resource Scheduler licensed?](#how-is-sesource-scheduler-licensed)
-- [Where should I add the tag for scheduling VMs?](#Where-should-I-add-the-tag-for-scheduling-vms)
+- [How is Resource Scheduler licensed?](#how-is-resource-scheduler-licensed)
+- [Where should I add the tag for scheduling VMs?](#where-should-I-add-the-tag-for-scheduling-vms)
 - [How can I request support?](#how-can-i-request-support)
 - [Do you have a partner program?](#do-you-have-a-partner-program)
 - [Back to Product Documentation](https://lumagateinc.github.io/Resource-Scheduler/)

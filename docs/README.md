@@ -245,7 +245,7 @@ Visit **[https://\<tenant\>.azurewebsites.net/claims](https://\<tenant\>.azurewe
 
 **STEP 3: Log a ticket**
 
-To log a ticket, visit our [Support page](https://lumagate.us/support) and click the "CONTACT US" button. In the form provided, select "Resource Scheduler" in the **Product** dropdown. Complete the required fields in the form and click **Submit**. A support ticket will be logged and routed automatically. You will receive an e-mail confirmation that your request was received.
+To log a ticket, visit our [Support page](https://lumagate.us/support) at [https://lumagate.us/support](https://lumagate.us/support) and click the "CONTACT US" button. In the form provided, select "Resource Scheduler" in the **Product** dropdown. Complete the required fields in the form and click **Submit**. A support ticket will be logged and routed automatically. You will receive an e-mail confirmation that your request was received.
 
 [back to ToC](#table-of-contents)
 

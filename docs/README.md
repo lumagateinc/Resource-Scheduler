@@ -104,7 +104,7 @@ This section covers the initial installation and configuration of the Resource S
 
     ![install008](images/install008.png)
 
-    **FIGURE 9**. Deployment outputs (website name)
+    **FIGURE 7**. Deployment outputs (website name)
 
 15. Paste the link into a web browser. (The Resource Scheduler has been tested in Edge, Chrome, Firefox, and Safari)
 
@@ -116,7 +116,7 @@ This section covers the initial installation and configuration of the Resource S
 
     ![install010](images/install010.png)
 
-    **FIGURE 10**. Profile read access
+    **FIGURE 8**. Profile read access
 
 You are now ready to configure schedules and add resources (VMs) to them.
 

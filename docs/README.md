@@ -17,12 +17,12 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 - **[Managing Schedules](#managing-schedules)**
   - [Schedule Resources Directly](#schedule-resources-directly)
   - [Schedule Resources by Tag](#schedule-resources-by-tag)
-- [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)
-- **[Troubleshooting and Support](#troubleshooting-and-support)**
+- **[Troubleshooting, Support, and Resource Admin](#troubleshooting-and-support)**
   - [Viewing Resource Logs](#viewing-resource-logs)
   - [Request Support](#request-support)
+  - [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)
+- [Frequently Asked Questions](#frequently-asked-questions)
 - [Resource Scheduler Licensing](#resource-scheduler-licensing)
-- **[Frequently Asked Questions](#frequently-asked-questions)**
 - [Registered Partner Program](#registered-partner-program)
 
 ## A Note on Azure Managed Apps<!-- omit in toc -->
@@ -327,12 +327,12 @@ Resource scheduler is licensed according to the number of resources (VMs) you ne
 
 ## Frequently Asked Questions<!-- omit in toc -->
 
-Frequently asked questions are maintained on our [FAQs Page](/FAQs.md)
+Frequently asked questions are maintained on our [FAQs Page](https://github.com/lumagateinc/Resource-Scheduler/tree/master/docs/FAQs.md)
 
 [back to ToC](#table-of-contents)
 
 ## Registered Partner Program<!-- omit in toc -->
 
-Prospective partners can learn more about Lumagate's Resource Scheduler partner program on our [Registered Partner Program](/Partners.md) page.
+Prospective partners can learn more about Lumagate's Resource Scheduler partner program on our [Registered Partner Program](https://github.com/lumagateinc/Resource-Scheduler/tree/master/docs/Partners.md) page.
 
 [back to ToC](#table-of-contents)

@@ -59,7 +59,7 @@ This section covers the initial installation and configuration of the Resource S
 
 >**NOTE**: You should specify a new resource group, not one created previously.
 
-![install001](images/install1.png)
+![install001](images/install001.png)
 
 **FIGURE 2**. Resource group name and Azure 
 
@@ -67,25 +67,25 @@ This section covers the initial installation and configuration of the Resource S
 
 9. In the Location for Application Insights field, specify the same region you selected when specifying a resource group name.
 
-![install002](images/install2.png)
+![install002](images/install002.png)
 
 **FIGURE 3**. Resource group prefix and App Insights region
 
 10. To deploy the Resource Scheduler, click **Create**.
 
-![install003](images/install3.png)
+![install003](images/install003.png)
 
 **FIGURE 4**. Agreement and Deployment
 
 11. Once the deployment begins, you will see the "Your deployment is underway" screen shown in Figure 5.
 
-![install004](images/install4.png)
+![install004](images/install004.png)
 
 **FIGURE 5**. Resource Scheduler in Azure
 
 12. When the deployment is complete, you will see the "Welcome to your Managed Application" screen shown in Figure 6.
 
-![install005](images/install5.png)
+![install005](images/install005.png)
 
 **FIGURE 6**. Resource Scheduler in Azure
 
@@ -93,7 +93,7 @@ This section covers the initial installation and configuration of the Resource S
 
 14. You will see the Managed Application, as shown in Figure 7.
 
-![install007](images/install7.png)
+![install007](images/install007.png)
 
 **FIGURE 7**. Resource Scheduler in Azure
 
@@ -101,7 +101,7 @@ This section covers the initial installation and configuration of the Resource S
 
 16. You will see resources like those shown in Figure 8.
 
-![install006](images/install6.png)
+![install006](images/install006.png)
 
 **FIGURE 8**. Resource Scheduler in Azure
 
@@ -111,7 +111,7 @@ This section covers the initial installation and configuration of the Resource S
 
 >**NOTE**: The current limitations of the Azure Managed Application framework make this a necessary step to retrieve your site URL.
 
-![install008](images/install8.png)
+![install008](images/install008.png)
 
 **FIGURE 9**. Deployment outputs (website name)
 

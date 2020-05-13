@@ -96,25 +96,9 @@ This section covers the initial installation and configuration of the Resource S
 
     **FIGURE 6**. Resource Scheduler in Azure
 
-13. To view Resource Scheduler components, click on the **Managed resource group** in the upper right of the welcome screen.
+13. Now, click on the **Parameters and Outputs** link in the left navigation menu (shown in Figure 9). You will find the URL of your Resource Scheduler instance in the lower right.
 
-14. You will see the Managed Application, as shown in Figure 7.
-
-    ![install007](images/install007.png)
-
-    **FIGURE 7**. Resource Scheduler in Azure
-
-15. Click on the Managed Application object.
-
-16. You will see resources like those shown in Figure 8.
-
-    ![install006](images/install006.png)
-
-    **FIGURE 8**. Resource Scheduler in Azure
-
-17. Now, click on the **Parameters and Outputs** link in the left navigation menu (shown in Figure 9). You will find the URL of your Resource Scheduler instance in the lower right.
-
-18. Copy the URL to the clipboard.
+14. Copy the URL to the clipboard.
 
     >**NOTE**: The current limitations of the Azure Managed Application framework make this a necessary step to retrieve your site URL.
 
@@ -122,11 +106,11 @@ This section covers the initial installation and configuration of the Resource S
 
     **FIGURE 9**. Deployment outputs (website name)
 
-19. Paste the link into a web browser. (The Resource Scheduler has been tested in Edge, Chrome, Firefox, and Safari)
+15. Paste the link into a web browser. (The Resource Scheduler has been tested in Edge, Chrome, Firefox, and Safari)
 
-20. Click **Login** button in the upper right, and provide your Azure AD credentials.
+16. Click **Login** button in the upper right, and provide your Azure AD credentials.
 
-21. You will then be prompted to allow the Resource Scheduler to read your profile information. Check the box and click **Accept**.
+17. You will then be prompted to allow the Resource Scheduler to read your profile information. Check the box and click **Accept**.
 
     >**NOTE**: This consent only affects your user account, and is the minimum required for any Azure app you login to.
 

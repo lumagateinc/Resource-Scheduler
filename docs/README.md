@@ -53,71 +53,71 @@ This section covers the initial installation and configuration of the Resource S
 
 5. To install the Resource Scheduler, click the **Create** button.
 
-![marketplace](images/marketplace.png)
+    ![marketplace](images/marketplace.png)
 
-**FIGURE 1**. Resource Scheduler in Azure
+    **FIGURE 1**. Resource Scheduler in the Azure Marketplace
 
 6. In the boxes provided, specify the subscription, resource group name, and an the Azure region where the Resource Scheduler will reside.
 
 7. Then, click the **Next : General Settings** button.
 
->**NOTE**: You should specify a new resource group, not one created previously.
+    >**NOTE**: You should specify a new resource group, not one created previously.
 
-![install001](images/install001.png)
+    ![install001](images/install001.png)
 
-**FIGURE 2**. Resource group name and Azure 
+    **FIGURE 2**. Subscription, Resource group, and Azure region
 
 8. Specify a value for the **Resource Prefix**. This can be any random alpha string up to 8 characters. (no numbers or special characters are supported)
 
 9. In the Location for Application Insights field, specify the same region you selected when specifying a resource group name.
 
-![install002](images/install002.png)
+    ![install002](images/install002.png)
 
-**FIGURE 3**. Resource group prefix and App Insights region
+    **FIGURE 3**. Resource group prefix and App Insights region
 
 10. To deploy the Resource Scheduler, click **Create**.
 
-![install003](images/install003.png)
+    ![install003](images/install003.png)
 
-**FIGURE 4**. Agreement and Deployment
+    **FIGURE 4**. Agreement and Deployment
 
 11. Once the deployment begins, you will see the "Your deployment is underway" screen shown in Figure 5.
 
-![install004](images/install004.png)
+    ![install004](images/install004.png)
 
-**FIGURE 5**. Resource Scheduler in Azure
+    **FIGURE 5**. Resource Scheduler in Azure
 
 12. When the deployment is complete, you will see the "Welcome to your Managed Application" screen shown in Figure 6.
 
-![install005](images/install005.png)
+    ![install005](images/install005.png)
 
-**FIGURE 6**. Resource Scheduler in Azure
+    **FIGURE 6**. Resource Scheduler in Azure
 
 13. To view Resource Scheduler components, click on the **Managed resource group** in the upper right of the welcome screen.
 
 14. You will see the Managed Application, as shown in Figure 7.
 
-![install007](images/install007.png)
+    ![install007](images/install007.png)
 
-**FIGURE 7**. Resource Scheduler in Azure
+    **FIGURE 7**. Resource Scheduler in Azure
 
 15. Click on the Managed Application object.
 
 16. You will see resources like those shown in Figure 8.
 
-![install006](images/install006.png)
+    ![install006](images/install006.png)
 
-**FIGURE 8**. Resource Scheduler in Azure
+    **FIGURE 8**. Resource Scheduler in Azure
 
 17. Now, click on the **Parameters and Outputs** link in the left navigation menu (shown in Figure 9). You will find the URL of your Resource Scheduler instance in the lower right.
 
 18. Copy the URL to the clipboard.
 
->**NOTE**: The current limitations of the Azure Managed Application framework make this a necessary step to retrieve your site URL.
+    >**NOTE**: The current limitations of the Azure Managed Application framework make this a necessary step to retrieve your site URL.
 
-![install008](images/install008.png)
+    ![install008](images/install008.png)
 
-**FIGURE 9**. Deployment outputs (website name)
+    **FIGURE 9**. Deployment outputs (website name)
 
 19. Paste the link into a web browser. (The Resource Scheduler has been tested in Edge, Chrome, Firefox, and Safari)
 
@@ -125,17 +125,17 @@ This section covers the initial installation and configuration of the Resource S
 
 21. You will then be prompted to allow the Resource Scheduler to read your profile information. Check the box and click **Accept**.
 
->**NOTE**: This consent only affects your user account, and is the minimum required for any Azure app you login to.
+    >**NOTE**: This consent only affects your user account, and is the minimum required for any Azure app you login to.
 
-![install010](images/install10.png)
+    ![install010](images/install10.png)
 
-**FIGURE 10**. Profile read access
+    **FIGURE 10**. Profile read access
 
 22. If you are a Global Administrator in your tenant, you may also see the prompt shown in Figure 11. This is an Azure default that has no purpose here. You may simply click Cancel or Accept without checking the Consent box.
 
-![install009](images/install9.png)
+    ![install009](images/install9.png)
 
-**FIGURE 11**. Profile read access
+    **FIGURE 11**. Profile read access
 
 You are now ready to configure schedules and add resources (VMs) to them.
 

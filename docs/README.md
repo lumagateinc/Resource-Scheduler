@@ -78,7 +78,7 @@ This section covers the initial installation and configuration of the Resource S
 
     **FIGURE 3**. Resource group prefix and App Insights region
 
-10. To deploy the Resource Scheduler, click **Create**.
+10. To deploy the Resource Scheduler, click **Review + create**.
 
     ![install003](images/install003.png)
 

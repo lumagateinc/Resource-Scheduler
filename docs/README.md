@@ -6,7 +6,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 
 The Resource Scheduler is an **Azure managed application**, a feature unique to Microsoft Azure. It is similar to a solution template in the Marketplace, with one key difference. With a managed application, the resources are deployed to a resource group that's managed by the publisher of the app (Lumagate, in this case), so we can ensure your app is always up-to-date. The resource group is present in your subscription, but an identity in the publisher's tenant has access to the resource group.
 
->IMPORTANT: This does NOT grant Lumagate permissions of any kind over your resources outside the resource group hosting the Resource Scheduler.
+>**IMPORTANT**: This does NOT grant Lumagate permissions of any kind over your resources outside the resource group hosting the Resource Scheduler.
 
 ## Table of Contents<!-- omit in toc -->
 
@@ -44,9 +44,13 @@ This section covers the initial installation and configuration of the Resource S
 ### Installation<!-- omit in toc -->
 
 1. Browse to the Azure portal at https://portal.azure.com. Login using an account with Global Administrator rights.
+
 2. In the search box at the top of the browser window, type "Marketplace". Select the **Marketplace** icon to go to the Azure Marketplace.
+
 3. In the Marketplace search box, type "Resource Scheduler".
+
 4. Click the "Resource Scheduler" tile in the search results.
+
 5. To install the Resource Scheduler, click the **Create** button.
 
 ![marketplace](images/marketplace.png)

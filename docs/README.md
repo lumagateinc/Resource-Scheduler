@@ -64,8 +64,6 @@ This section covers the initial installation and configuration of the Resource S
 
 7. Then, click the **Next : General Settings** button.
 
-    >**NOTE**: You should specify a new resource group, not one created previously.
-
     ![install001](images/install001.png)
 
     **FIGURE 2**. Subscription, Resource group, and Azure region
@@ -96,9 +94,9 @@ This section covers the initial installation and configuration of the Resource S
 
     **FIGURE 6**. Resource Scheduler in Azure
 
-13. Now, click on the **Parameters and Outputs** link in the left navigation menu (shown in Figure 9). You will find the URL of your Resource Scheduler instance in the lower right.
+13. Now, click on the **Parameters and Outputs** link in the left navigation menu (shown in Figure 7). You will find the URL of your Resource Scheduler instance in the lower right.
 
-14. Copy the URL to the clipboard.
+14. Copy the URL to the clipboard (shown in Figure 7).
 
     >**NOTE**: The current limitations of the Azure Managed Application framework make this a necessary step to retrieve your site URL.
 

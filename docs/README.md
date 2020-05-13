@@ -33,7 +33,7 @@ The Resource Scheduler is an **Azure managed application**, a feature unique to 
 
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->
 
-A Resource Scheduler instance is associated to a single Azure Active Directory (AD) tenant. A Resource Scheduler instance can manage schedules for starting and stopping VMs in ALL Azure subscriptions associated with an Azure AD tenant. In other words:
+A Resource Scheduler instance is associated to a single Azure Active Directory (AD) tenant. A Resource Scheduler instance can manage schedules for starting and stopping VMs in Azure connected subscriptions associated with an Azure AD tenant. In other words:
 
 - Resource Scheduler has a 1-1 relationship with your Azure AD tenant.
 - Resource Scheduler has a 1-many relationship with your Azure subscriptions associated to that Azure AD tenant.
@@ -134,12 +134,6 @@ This section covers the initial installation and configuration of the Resource S
 
     **FIGURE 10**. Profile read access
 
-22. If you are a Global Administrator in your tenant, you may also see the prompt shown in Figure 11. This is an Azure default that has no purpose here. You may simply click Cancel or Accept without checking the Consent box.
-
-    ![install009](images/install009.png)
-
-    **FIGURE 11**. Profile read access
-
 You are now ready to configure schedules and add resources (VMs) to them.
 
 [back to ToC](#table-of-contents)
@@ -219,6 +213,8 @@ This section describes how to schedule resources for start and stop at the days 
 2. **Scheduling by tag**. This option will automatically associate the schedule to all Azure VMs with the tag you specify. *This is the preferred option for bulk scheduling and large environments.* See ["Schedule Resources by Tag"](#schedule-resources-by-tag) for configuration steps.
 
 > **A note on multiple schedules**. You can assign multiple schedules through direct assignment or using tags.
+
+[back to ToC](#table-of-contents)
 
 ### Schedule Resources Directly<!-- omit in toc -->
 

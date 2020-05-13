@@ -327,12 +327,12 @@ Resource scheduler is licensed according to the number of resources (VMs) you ne
 
 ## Frequently Asked Questions<!-- omit in toc -->
 
-Frequently asked questions are maintained on our [FAQs Page](/FAQs.md)
+Frequently asked questions are maintained on our [FAQs Page](FAQs.md)
 
 [back to ToC](#table-of-contents)
 
 ## Registered Partner Program<!-- omit in toc -->
 
-Prospective partners can learn more about Lumagate's Resource Scheduler partner program on our [Registered Partner Program](/Partners.md) page.
+Prospective partners can learn more about Lumagate's Resource Scheduler partner program on our [Registered Partner Program](Partners.md) page.
 
 [back to ToC](#table-of-contents)

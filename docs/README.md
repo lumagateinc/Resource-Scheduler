@@ -127,13 +127,13 @@ This section covers the initial installation and configuration of the Resource S
 
     >**NOTE**: This consent only affects your user account, and is the minimum required for any Azure app you login to.
 
-    ![install010](images/install10.png)
+    ![install010](images/install010.png)
 
     **FIGURE 10**. Profile read access
 
 22. If you are a Global Administrator in your tenant, you may also see the prompt shown in Figure 11. This is an Azure default that has no purpose here. You may simply click Cancel or Accept without checking the Consent box.
 
-    ![install009](images/install9.png)
+    ![install009](images/install009.png)
 
     **FIGURE 11**. Profile read access
 

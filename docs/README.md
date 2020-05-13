@@ -13,7 +13,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [Grant Permissions](#grant-permissions)
   - [Connect Subscriptions](#connect-subscriptions)
   - [Configure Time Zone](#configure-time-zone)
-  - [A quick note on Managed Identity](#a-quick-note-on-managed-identity)
+  ◦ [A quick note on Managed Identity](#a-quick-note-on-managed-identity)
 - [Managing Schedules](#managing-schedules)
   - [Schedule Resources Directly](#schedule-resources-directly)
   - [Schedule Resources by Tag](#schedule-resources-by-tag)

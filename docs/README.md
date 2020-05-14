@@ -6,18 +6,18 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 
 ## Table of Contents<!-- omit in toc -->
 
-- [A Note on Azure Managed Apps](#a-note-on-azure-managed-apps)
-- [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)
-- [Install and Configure](#install-and-configure)
-  - [Installation](#installation
-  - [Grant Permissions](#grant-permissions
-  - [Connect Subscriptions](#connect-subscriptions
-  - [Configure Time Zone](#configure-time-zone)
-  - [A quick note on Managed Identity](#a-quick-note-on-managed-identity
-- [Managing Schedules](#managing-schedules)
-  - [Schedule Resources Directly](#schedule-resources-directly)
-    - [Schedule Resources by Tag](#schedule-resources-by-tag)
-- [Troubleshooting, Support, and Resource Admin](#troubleshooting-and-support)
+* [A Note on Azure Managed Apps](#a-note-on-azure-managed-apps)
+* [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)
+* [Install and Configure](#install-and-configure)
+  * [Installation](#installation
+  * [Grant Permissions](#grant-permissions
+  * [Connect Subscriptions](#connect-subscriptions
+  * [Configure Time Zone](#configure-time-zone)
+  * [A quick note on Managed Identity](#a-quick-note-on-managed-identity
+* [Managing Schedules](#managing-schedules)
+  * [Schedule Resources Directly](#schedule-resources-directly)
+  * [Schedule Resources by Tag](#schedule-resources-by-tag)
+* [Troubleshooting, Support, and Resource Admin](#troubleshooting-and-support)
   - [Viewing Resource Logs](#viewing-resource-logs)
   - [Request Support](#request-support)
   - [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)

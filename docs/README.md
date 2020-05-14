@@ -16,13 +16,13 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [A quick note on Managed Identity](#a-quick-note-on-managed-identity
 - [Managing Schedules](#managing-schedules)
   - [Schedule Resources Directly](#schedule-resources-directly)
-  - [Schedule Resources by Tag](#schedule-resources-by-tag)
+    - [Schedule Resources by Tag](#schedule-resources-by-tag)
 - [Troubleshooting, Support, and Resource Admin](#troubleshooting-and-support)
   - [Viewing Resource Logs](#viewing-resource-logs)
   - [Request Support](#request-support)
   - [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)
 - [Resource Scheduler Licensing](#resource-scheduler-licensing)
-  - [Frequently Asked Questions](#frequently-asked-questions)
+ - [Frequently Asked Questions](#frequently-asked-questions)
 - [Registered Partner Program](#registered-partner-program)
 
 ## A Note on Azure Managed Apps<!-- omit in toc -->

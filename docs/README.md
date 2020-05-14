@@ -6,14 +6,14 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 
 ## Table of Contents<!-- omit in toc -->
 
-- [A Note on Azure Managed Apps](#a-note-on-azure-managed-apps)  
-- [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)  
-- [Install and Configure](#install-and-configure)  
-  - [Installation](#installation)  
-  - [Grant Permissions](#grant-permissions)  
-  - [Connect Subscriptions](#connect-subscriptions)  
-  - [Configure Time Zone](#configure-time-zone)  
-  - [A quick note on Managed Identity](#a-quick-note-on-managed-identity)  
+- [A Note on Azure Managed Apps](#a-note-on-azure-managed-apps)
+- [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)
+- [Install and Configure](#install-and-configure)
+  - [Installation](#installation
+  - [Grant Permissions](#grant-permissions
+  - [Connect Subscriptions](#connect-subscriptions
+  - [Configure Time Zone](#configure-time-zone)
+  - [A quick note on Managed Identity](#a-quick-note-on-managed-identity
 - [Managing Schedules](#managing-schedules)
   - [Schedule Resources Directly](#schedule-resources-directly)
   - [Schedule Resources by Tag](#schedule-resources-by-tag)
@@ -21,8 +21,8 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [Viewing Resource Logs](#viewing-resource-logs)
   - [Request Support](#request-support)
   - [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)
-- [Frequently Asked Questions](#frequently-asked-questions)
 - [Resource Scheduler Licensing](#resource-scheduler-licensing)
+  - [Frequently Asked Questions](#frequently-asked-questions)
 - [Registered Partner Program](#registered-partner-program)
 
 ## A Note on Azure Managed Apps<!-- omit in toc -->
@@ -254,31 +254,6 @@ Associating schedules to resources with Azure tags is the preferred method for m
 
 [back to ToC](#table-of-contents)
 
-## Start and Stop VMs from Resource Scheduler<!-- omit in toc -->
-
-If desired, you can start and stop VMs on-demand directly from the Resource Scheduler portal.
-
-*To start or stop a VM, perform the following steps:*
-
-1. From the left menu, select **Resources**.
-
-2. Then, click the Start or Stop button as appropriate. Which button appears depends on the current state of the VM:
-   - The **Start** button ![start](images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
-   - The **Stop** button ![stop](images/stop.png) only appears for VMs currently in a *running* state.
-
-3. Press the appropriate button to start or stop the VM in Figure 15.
-
-   - **To START a VM:** Click the green ![start](images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
-   - **To STOP a VM:** Click the stop ![stop](images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
-
-> **NOTE**: The state of the VM may take up to 5 minutes after button press to reflect the change in state, as mentioned on the confirmation screen.
-
-![schedtags](images/resources.png)
-
-**FIGURE 15**. Start and Stop buttons for VM resources
-
-[back to ToC](#table-of-contents)
-
 ## Troubleshooting and Support<!-- omit in toc -->
 
 This section details where to view logs related to Resource Scheduler operation, as well as how to ask a question or request support.
@@ -316,6 +291,31 @@ Visit **[https://\<tenant\>.azurewebsites.net/claims](https://\<tenant\>.azurewe
 **STEP 3: Log a ticket**
 
 To log a ticket, visit our [Support page](https://lumagate.us/support) at [https://lumagate.us/support](https://lumagate.us/support) and click the "CONTACT US" button. In the form provided, select "Resource Scheduler" in the **Product** dropdown. Complete the required fields in the form and click **Submit**. A support ticket will be logged and routed automatically. You will receive an e-mail confirmation that your request was received.
+
+[back to ToC](#table-of-contents)
+
+## Start and Stop VMs from Resource Scheduler<!-- omit in toc -->
+
+If desired, you can start and stop VMs on-demand directly from the Resource Scheduler portal.
+
+*To start or stop a VM, perform the following steps:*
+
+1. From the left menu, select **Resources**.
+
+2. Then, click the Start or Stop button as appropriate. Which button appears depends on the current state of the VM:
+   - The **Start** button ![start](images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
+   - The **Stop** button ![stop](images/stop.png) only appears for VMs currently in a *running* state.
+
+3. Press the appropriate button to start or stop the VM in Figure 15.
+
+   - **To START a VM:** Click the green ![start](images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
+   - **To STOP a VM:** Click the stop ![stop](images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
+
+> **NOTE**: The state of the VM may take up to 5 minutes after button press to reflect the change in state, as mentioned on the confirmation screen.
+
+![schedtags](images/resources.png)
+
+**FIGURE 15**. Start and Stop buttons for VM resources
 
 [back to ToC](#table-of-contents)
 

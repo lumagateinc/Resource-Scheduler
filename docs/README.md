@@ -9,7 +9,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 * [A Note on Azure Managed Apps](#a-note-on-azure-managed-apps)
 * [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)
 * [Install and Configure](#install-and-configure)
-  * [Installation](#installation
+  * [Installation](#installation)
   * [Grant Permissions](#grant-permissions)
   * [Connect Subscriptions](#connect-subscriptions)
   * [Configure Time Zone](#configure-time-zone)

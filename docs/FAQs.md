@@ -7,6 +7,7 @@
 - [Where should I add the tag for scheduling VMs?](#where-should-I-add-the-tag-for-scheduling-vms)
 - [How can I request support?](#how-can-i-request-support)
 - [Do you have a partner program?](#do-you-have-a-partner-program)
+- [How much does it cost to run the Resource Scheduler](#how-much-does-it-cost-to-run-the-resource-scheduler)
 - [Back to Product Documentation](https://lumagateinc.github.io/Resource-Scheduler/)
 
 ## Can I add a VM to multiple schedules?<!-- omit in toc -->
@@ -30,6 +31,12 @@ To avoid confusion and unintentional scheduling of VMs, the Resource Scheduler o
 ## How can I request support?<!-- omit in toc -->
 
 Email support is included in the cost of the product. Instructions for requesting support are available in in the product documentation in the ["Request Support"](https://lumagateinc.github.io/Resource-Scheduler/#request-support) section.
+
+[back to top](#resource-scheduler-faqs)
+
+## How much does it cost to run the Resource Scheduler?<!-- omit in toc -->
+
+In addition to the monthly subscription fee, there is a small monthly Azure cost. The Resource Scheduler is a small, secure PaaS application. The Azure PaaS infrastructure costs in most customer environments will be between $5-7 USD per month.
 
 [back to top](#resource-scheduler-faqs)
 

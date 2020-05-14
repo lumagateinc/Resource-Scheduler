@@ -31,6 +31,8 @@ The Resource Scheduler is an **Azure managed application**, a feature unique to 
 
 >**IMPORTANT**: This does NOT grant Lumagate permissions of any kind over your resources outside the resource group hosting the Resource Scheduler.
 
+[back to ToC](#table-of-contents)
+
 ## Scope of a Resource Scheduler instance<!-- omit in toc -->
 
 A Resource Scheduler instance is associated to a single Azure Active Directory (AD) tenant. A Resource Scheduler instance can manage schedules for starting and stopping VMs in Azure connected subscriptions associated with an Azure AD tenant. In other words:

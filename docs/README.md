@@ -21,8 +21,8 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [Viewing Resource Logs](#viewing-resource-logs)
   - [Request Support](#request-support)
   - [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)
-- [Resource Scheduler Licensing](#resource-scheduler-licensing)
-  - [Frequently Asked Questions](#frequently-asked-questions)
+- [Resource Scheduler Licensing](#resource-scheduler-licensing)  
+- [Frequently Asked Questions](#frequently-asked-questions)
 - [Registered Partner Program](#registered-partner-program)
 
 ## A Note on Azure Managed Apps<!-- omit in toc -->

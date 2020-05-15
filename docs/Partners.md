@@ -7,6 +7,7 @@ The Referral Partner Program for Lumagate's Resource Scheduler for Microsoft Azu
 - [Benefits of the Referral Partner Program](#benefits-of-the-registered-partner-program)
 - [Program Conditions](#program-conditions)
 - [Registration Process](#registration-process)
+- [Program Terms and Conditions](#program-terms-and-conditions)
 - [Back to Product Documentation](https://lumagateinc.github.io/Resource-Scheduler/)
 
 ## Benefits of the Referral Partner Program<!-- omit in toc -->

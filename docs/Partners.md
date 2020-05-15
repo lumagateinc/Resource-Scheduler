@@ -1,6 +1,6 @@
 ![Partner Home](images/Partners.png)
 
-The Registered Partner Program for Lumagate's Resource Scheduler for Microsoft Azure is designed to help you bring value by helping your customers save money on their Azure IaaS consumption, while maintaining your ongoing customer relationships. Program details and registration below.
+The Registered Partner Program for Lumagate's Resource Scheduler for Microsoft Azure is a simple and free referral partner program designed to help you bring value by helping your customers save money on their Azure IaaS consumption, while maintaining your ongoing customer relationships. Program details and registration below.
 
 ## Table of Contents<!-- omit in toc -->
 
@@ -14,7 +14,7 @@ The Registered Partner Program for Lumagate's Resource Scheduler for Microsoft A
 The purpose of the partner program for the Resource Scheduler for Microsoft Azure is to enable partners to:
 
 - Play an active role in helping customers save money through recommending and configuring the Resource Scheduler.
-- Maintain an active role with in the process, receiving a copy of product announcements, like feature updates.
+- Maintain a more active role with in the process, receiving a copy of product announcements, like feature updates.
 - Receive access to special offers on Resource Scheduler you can share with prospective customers.
 - Access to e-mail product support.
 

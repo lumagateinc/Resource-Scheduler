@@ -25,7 +25,7 @@ If you are a systems integrator focused on Azure, the Resource Scheduler partner
 
 ## Program Conditions<!-- omit in toc -->
 
-Partners agree to abide by the conditions outlined in the registered partner agreement, which you will receive via email. **Complete the registration as described below to receive a copy of the partner agreement.**
+Partners agree to abide by the conditions outlined in the referral partner agreement, which you will receive via email. **Complete the registration as described below to receive a copy of the partner agreement.**
 
 [back to ToC](#table-of-contents)
 

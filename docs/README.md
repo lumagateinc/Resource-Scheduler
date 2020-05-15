@@ -23,7 +23,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [Start and Stop VMs from Resource Scheduler](#start-and-stop-vms-from-resource-scheduler)
 - [Resource Scheduler Licensing](#resource-scheduler-licensing)  
 - [Frequently Asked Questions](#frequently-asked-questions)
-- [Registered Partner Program](#registered-partner-program)
+- [Referral Partner Program](#registered-partner-program)
 
 ## A Note on Azure Managed Apps<!-- omit in toc -->
 
@@ -333,8 +333,8 @@ Frequently asked questions are maintained on our [FAQs Page](/FAQs.md)
 
 [back to ToC](#table-of-contents)
 
-## Registered Partner Program<!-- omit in toc -->
+## Referral Partner Program<!-- omit in toc -->
 
-Prospective partners can learn more about Lumagate's Resource Scheduler partner program on our [Registered Partner Program](Partners.md) page.
+Prospective partners can learn more about Lumagate's Resource Scheduler partner program on our [Referral Partner Program](Partners.md) page.
 
 [back to ToC](#table-of-contents)

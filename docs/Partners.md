@@ -35,9 +35,9 @@ Prospective partners can easily register for Lumagate's Resource Scheduler partn
 
 1. Install the Resource Scheduler using the steps detailed in the [Product Documentation](https://lumagateinc.github.io/Resource-Scheduler/).
 
-2. Then, on the **Settings** screen, complete the form shown in the figure below with your company and contact info. Click **Save** to save your changes. 
+2. Then, on the **Settings** screen, complete the form shown in the figure below with your company and contact info. Click **Save** to save your changes.
 
-    A contract you can complete and sign electronically will be mailed to you on the next business day.
+    A contract you can complete and sign electronically will be e-mailed to you on the next business day.
 
     ![marketplace](images/partner-info.png)
 

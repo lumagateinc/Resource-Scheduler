@@ -50,3 +50,7 @@ Prospective partners can easily register for Lumagate's Resource Scheduler partn
 [back to ToC](#table-of-contents)
 
 [Product Documentation](https://lumagateinc.github.io/Resource-Scheduler/)
+
+## Program Terms and Conditions<!-- omit in toc -->
+
+You can find the Terms and Conditions of the Referral Partner Program at [https://lumagateinc.github.io/Resource-Scheduler/Partner-Terms-and-Conditions](https://lumagateinc.github.io/Resource-Scheduler/Partner-Terms-and-Conditions)

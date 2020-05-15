@@ -2,10 +2,8 @@
 
 Last updated: May 14, 2020
 
-Please read the Terms of Service ("Agreement") carefully before downloading, installing, or using Resource Scheduler ("Application").
+Please read the Terms of Service ("Agreement") carefully before downloading, installing, or using Resource Scheduler ("Application"). By downloading, installing, or using the Application, you are agreeing to be bound by the terms and conditions of this Agreement. If you do not agree to the terms of this Agreement, do not install or use the application
 
-By downloading, installing, or using the Application, you are agreeing to be bound by the terms and conditions of this Agreement. If you do not agree to the terms of this Agreement, do not install or use the application
-=
 **1. License**. Lumagate, Inc. (“Lumagate” or “Company”) grants you a revocable, non-exclusive, non-transferable, limited license to download, install and use the Application solely for your purposes strictly in accordance with the terms of this Agreement. You acknowledge and agree that the	Application and all copyrights, patents, trademarks, trade secrets and other intellectual property rights associated therewith are, and shall remain, the property of Company. Furthermore, You acknowledge and agree that the source and object code of the Applications and the format, directories, queries, algorithms, structure and organization of the Application are the intellectual property and proprietary and confidential information of Company and its affiliates, licensors and suppliers. Except as expressly stated in this License, You are not granted any intellectual property rights in or to the Application by implication, estoppel or other legal theory, and all rights in and to the Application not expressly granted in this License are hereby eserved and retained by Company. In no event, shall the Application or components thereof be deemed to be "open source" or "publicly available" software.
 
 **2. Restrictions**. You may not reverse engineer, modify, alter,

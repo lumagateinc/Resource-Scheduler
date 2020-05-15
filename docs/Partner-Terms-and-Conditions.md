@@ -1,4 +1,4 @@
-# Registered Partner Agreement for Resource Scheduler 
+# Referral Partner Agreement for Resource Scheduler
 
 Last updated: May 14, 2020
 

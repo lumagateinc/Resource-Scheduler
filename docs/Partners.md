@@ -22,10 +22,13 @@ The purpose of the partner program for the Resource Scheduler for Microsoft Azur
 
 If you are a systems integrator focused on Azure, the Resource Scheduler partner program is intended to help you round out your professional services with complementary software every Azure customer can use.
 
+> **NOTE**: Referral partners are eligible for a free subscription of the Resource Schedule for a single tenant, up to 25 VMs.
+
 [back to ToC](#table-of-contents)
 
 ## Program Conditions<!-- omit in toc -->
 
+The program is open to all Microsoft Silver and Gold partners.
 Partners agree to abide by the conditions outlined in the referral partner agreement, which you will receive via email. **Complete the registration as described below to receive a copy of the partner agreement.**
 
 [back to ToC](#table-of-contents)

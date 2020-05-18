@@ -161,6 +161,8 @@ You can associate multiple subscriptions to a single Resource Scheduler instance
 2. From the **Available Subscriptions**, find the subscription you want to add.
 3. Click the blue add ![add](images/add.png) button next to the right of the subscription. Click **Connect** to confirm the change.
 
+>**NOTE**: It can take up to 5 minutes after you deploy Resource Scheduler for the managed identity to be linked to the database. If you receive the error "The Managed Identity for Resource Scheduler has not been updated in the database yet.", simply wait about 5 minutes and try again.
+
 *To **disconnect** a subscription to the Resource Scheduler instance, perform the following steps:*
 
 1. From the left menu, select **Subscriptions**.

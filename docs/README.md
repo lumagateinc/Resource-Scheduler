@@ -12,7 +12,7 @@ VIDEO GUIDANCE: Installation and configuration video links are available in the 
 - [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)
 - [Install and Configure](#install-and-configure)
   - [Installation](#installation)
-  - [Configuration](#Configuration)
+  - [Configuration](#configuration)
   - [Grant Permissions](#grant-permissions)
   - [Connect Subscriptions](#connect-subscriptions)
   - [Configure Time Zone](#configure-time-zone)
@@ -126,6 +126,8 @@ Written version of Resource Scheduler installation steps is available in the sec
     **FIGURE 8**. Profile read access
 
 You are now ready to configure schedules and add resources (VMs) to them.
+
+[back to ToC](#table-of-contents)
 
 ## Configuration<!-- omit in toc -->
 

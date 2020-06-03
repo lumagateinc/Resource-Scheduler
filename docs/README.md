@@ -53,7 +53,7 @@ This section covers the initial installation and configuration of the Resource S
 
 INSTALLATION VIDEO WALKTHROUGH: Available [HERE](https://youtu.be/RcYINjkH9jE)
 
-Written version of Resource Scheduler installation steps is available in the sections below.
+Written version of Resource Scheduler installation steps is available immediately below.
 
 1. Browse to the Azure portal at [https://portal.azure.com](https://portal.azure.com). Login using an account with Global Administrator rights.
 

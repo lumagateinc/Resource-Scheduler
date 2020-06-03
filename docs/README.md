@@ -10,6 +10,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 - [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)
 - [Install and Configure](#install-and-configure)
   - [Installation](#installation)
+- [Configuration](#Configuration)
   - [Grant Permissions](#grant-permissions)
   - [Connect Subscriptions](#connect-subscriptions)
   - [Configure Time Zone](#configure-time-zone)
@@ -47,6 +48,8 @@ A Resource Scheduler instance is associated to a single Azure Active Directory (
 This section covers the initial installation and configuration of the Resource Scheduler.
 
 ### Installation<!-- omit in toc -->
+
+INSTALLATION VIDEO WALKTHROUGH: Available [HERE](https://youtu.be/RcYINjkH9jE)
 
 1. Browse to the Azure portal at https://portal.azure.com. Login using an account with Global Administrator rights.
 
@@ -119,6 +122,10 @@ This section covers the initial installation and configuration of the Resource S
     **FIGURE 8**. Profile read access
 
 You are now ready to configure schedules and add resources (VMs) to them.
+
+## Configuration<!-- omit in toc -->
+
+CONFIGURATION VIDEO WALKTHROUGH: Available [HERE](https://youtu.be/Gm4XVYBKfxA)
 
 [back to ToC](#table-of-contents)
 

@@ -6,7 +6,7 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
 
 ## Table of Contents<!-- omit in toc -->
 
-VIDEO GUIDANCE: Installation and configuration video links are available in the [Installation](#installation) and [Configuration](#configuration) sections below. If you do not know the URL of your Resource Scheduler installation, watch the full [Installation & Configuration Instructions HERE](https://youtu.be/_0u8qK9WV0g).
+**VIDEO GUIDANCE**: Installation and configuration video links are available in the [Installation](#installation) and [Configuration](#configuration) sections below. If you do not know the URL of your Resource Scheduler installation, watch the full [Installation & Configuration Instructions HERE](https://youtu.be/_0u8qK9WV0g).
 
 - [A Note on Azure Managed Apps](#a-note-on-azure-managed-apps)
 - [Scope of a Resource Scheduler instance](#scope-of-a-resource-scheduler-instance)

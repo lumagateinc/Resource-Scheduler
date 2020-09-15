@@ -77,9 +77,11 @@ Written version of Resource Scheduler installation steps is available immediatel
 
     **FIGURE 2**. Subscription, Resource group, and Azure region
 
-8. Specify a value for the **Resource Prefix**. This can be any random alpha string up to 8 characters. (no numbers or special characters are supported)
+8. Specify a value for the **Resource Prefix**. This can be any unique random alpha string up to 8 characters. (no numbers or special characters are supported).
 
-9. In the Location for Application Insights field, specify the same region you selected when specifying a resource group name.
+    >**IMPORTANT**: Microsoft *requires* this string is globally unique, so do not pick a common name or string others might use!
+
+9.  In the Location for Application Insights field, specify the same region you selected when specifying a resource group name.
 
     ![install002](images/install002.png)
 

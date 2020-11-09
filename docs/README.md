@@ -107,6 +107,8 @@ Written version of Resource Scheduler installation steps is available immediatel
 
 13. Now, click on the **Parameters and Outputs** link in the left navigation menu (shown in Figure 7). You will find the URL of your Resource Scheduler instance in the lower right.
 
+    ![install006](images/ressched-wait-notice.png)
+
 14. Copy the URL to the clipboard (shown in Figure 7).
 
     >**NOTE**: The current limitations of the Azure Managed Application framework make this a necessary step to retrieve your site URL.

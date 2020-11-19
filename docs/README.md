@@ -371,7 +371,7 @@ You can view activity logs from multiple perspectives, as described here.
 
 ![postpone](images/sched-log.png)
 
-**FIGURE 18**. Postponed schedule actions (in red)
+**FIGURE 18**. Schedule logs
 
 Events are listed in descending order (newest event at the top).
 
@@ -380,7 +380,7 @@ Events are listed in descending order (newest event at the top).
 
 ![postpone](images/central-log.png)
 
-**FIGURE 19**. Postponed schedule actions (in red)
+**FIGURE 19**. Central resource and activity log
 
 [back to ToC](#table-of-contents)
 
@@ -420,7 +420,7 @@ If desired, you can start and stop VMs on-demand directly from the Resource Sche
    - The **Start** button ![start](images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
    - The **Stop** button ![stop](images/stop.png) only appears for VMs currently in a *running* state.
 
-3. Press the appropriate button to start or stop the VM in Figure 17.
+3. Press the appropriate button to start or stop the VM in Figure 20.
 
    - **To START a VM:** Click the green ![start](images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
    - **To STOP a VM:** Click the stop ![stop](images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
@@ -429,7 +429,7 @@ If desired, you can start and stop VMs on-demand directly from the Resource Sche
 
 ![schedtags](images/resources.png)
 
-**FIGURE 17**. Start and Stop buttons for VM resources
+**FIGURE 20**. Start and Stop buttons for VM resources
 
 [back to ToC](#table-of-contents)
 

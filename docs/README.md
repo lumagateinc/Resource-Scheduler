@@ -16,10 +16,13 @@ The Resource Scheduler for Microsoft Azure provides a quick and easy way to crea
   - [Grant Permissions](#grant-permissions)
   - [Connect Subscriptions](#connect-subscriptions)
   - [Configure Time Zone](#configure-time-zone)
+  - [Email Notifications](#email-notification)
+  - [Webhook Notifications](#webhook-notification)
   - [A quick note on Managed Identity](#a-quick-note-on-managed-identity)
 - [Managing Schedules](#managing-schedules)
   - [Schedule Resources Directly](#schedule-resources-directly)
   - [Schedule Resources by Tag](#schedule-resources-by-tag)
+  - [Postpone Scheduled Action](#postpone-scheduled-run)
 - [Troubleshooting, Support, and Resource Admin](#troubleshooting-and-support)
   - [Viewing Resource Logs](#viewing-resource-logs)
   - [Request Support](#request-support)
@@ -204,9 +207,59 @@ The time zone settings determines the time zone by which schedules will be set a
 
 [back to ToC](#table-of-contents)
 
+## Email Notifications<!-- omit in toc -->
+
+You can configure the Resource Scheduler to send email notification of upcoming schedule actions from Office 365. Because the notifications are delivered in adaptive cards, they are actionable! You can postpone the next run of a schedule from this notification as described in "[Postpone Scheduled Action](#postpone-scheduled-run)".
+
+To configure email notification:
+1. In the Resource Scheduler site, select the **Settings** tab.
+2. In the **Notifications Sender Address** box, enter the address of a user or shared mailbox from your Office 365 subscription.
+3. In the **Notifications Sender Address** box, enter a valid user or distribution list email address.
+4. To generate the **Office 365 Originator ID**, click the **Create Originator ID** link beneath the box.
+5. Click the **Save** button at the bottom of the screen to save your changes.
+
+![emailnotif](images/email_settings.png)
+
+**FIGURE 11**. Email Notifications configuration on Settings tab
+
+[back to ToC](#table-of-contents)
+
+## Webhook Notifications<!-- omit in toc -->
+
+You can configure notification of upcoming schedule actions to Microsoft Teams via webhook. Because the notifications are delivered in adaptive cards, they are actionable! You can postpone the next run of a schedule from this notification as described in "[Postpone Scheduled Action](#postpone-scheduled-run)".
+
+To configure actionable webhook notifications:
+
+1. Open Microsoft Teams and select the team you would like to receive notifications.
+2. Click the ellipsis (...) next to the team name and select **Manage team**.
+3. Select the **Apps** tab.
+4. If you do not see webhooks in the list, click the **More apps** button.
+5. In the search box , type 'webhook'. From the search results, select 'Incoming Webhook' and click the **Add to a team** button.
+6. On the 'Setup an incoming Webhook...', click the **Setup a connector** button.
+7. On the Incoming Webhook screen, click **Create**. Then, copy the URL, as shown in the figure below.
+
+![webookurl](images/webhook_url.png)
+
+**FIGURE 12**. Webhook URL in Teams
+
+8. To complete the configuration, go back to the **Settings** tab of the Resource Scheduler.
+9. Paste the URL from step 7 into the box provided in the 'Webhook Notifications' area.
+10. Check the 'Enable webhook for start actions' and 'Enable webhook for stop actions' according to your preference.
+11. Click the **Save** button at the bottom of the screen to save your changes.
+
+> **NOTE**: While you can configure notifications for stop and start actions independently, you must select start notifications to enable the option to postpone schedule runs from these notifications.
+
+![webooksettings](images/webhook_settings.png)
+
+**FIGURE 13**. Webhook Notifications configuration on Settings tab
+
+[back to ToC](#table-of-contents)
+
 ## A quick note on Managed Identity<!-- omit in toc -->
 
-To complete scheduled actions, the Resource Scheduler uses a **managed identity**. The managed identity is an account in the customer's Azure Active Directory (AD) that only Azure / Azure AD know the password of, similar to the Managed Service Account in Active Directory. When you connect a subscription, you authorize this account to have rights to the subscription, allowing it to start, stop, and inventory VMs and tags without a user signed in. (This is useful when the schedule kicks off before/after working hours, when you are not sitting at your computer).
+To complete scheduled actions, the Resource Scheduler uses a **managed identity**. The managed identity is an account in the customer's Azure Active Directory (AD) that only Azure / Azure AD know the password of, similar to the Managed Service Account in Active Directory. 
+
+When you connect a subscription, you authorize this account to have rights to the subscription, allowing it to start, stop, and inventory VMs and tags without a user signed in. This is useful when the schedule kicks off before/after working hours, when you are not sitting at your computer.
 
 [back to ToC](#table-of-contents)
 
@@ -230,16 +283,16 @@ Associating resources to schedules directly is the preferred method for managing
 1. From the left menu, select **Schedules**.
 2. Click the plus (+) sign by **Schedules**, shown in Figure 11 below. This will bring up the schedule form.
 3. Complete the values in the schedule form.
-4. Add VMs in the Resources field, using the search and list controls, shown in Figure 12 below.
+4. Add VMs in the Resources field, using the search and list controls, shown in Figure 14 below.
 5. Click **Save** to save your changes.
 
 ![schedule](images/schedules.png)
 
-**FIGURE 11**. Schedule menu in Resource Scheduler
+**FIGURE 14**. Schedule menu in Resource Scheduler
 
 ![schedule](images/sched_res.png)
 
-**FIGURE 12**. Adding VM resources directly to a schedule
+**FIGURE 15**. Adding VM resources directly to a schedule
 
 [back to ToC](#table-of-contents)
 
@@ -262,20 +315,45 @@ Associating schedules to resources with Azure tags is the preferred method for m
 
 1. From the left menu, select **Tags**.
 2. In the **Available Tags** list, find the tag name associated to the resources you wish to schedule.
-3. To the right of your tag, click the orange **Schedule tag** button, shown in Figure 13. This will bring up the schedule form.
-4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. *The tag values are provided to you in the dropdown list, shown in Figure 14 below.*
+3. To the right of your tag, click the orange **Schedule tag** button, shown in Figure 16. This will bring up the schedule form.
+4. In the **Schedule Trigger Values** field, add one or more tag values that will trigger schedule actions. *The tag values are provided to you in the dropdown list, shown in Figure 17 below.*
 5. In the** Attached Schedules** field, select the desired schedule or schedules from the dropdown list. 
 6. Click **Save** to save your changes.
 
 ![availtags](images/avail_tags.png)
 
-**FIGURE 13**. Adding VM resources directly to a schedule
+**FIGURE 16**. Adding VM resources to a schedule using tags
 
 ![schedtags](images/sched_tag.png)
 
-**FIGURE 14**. Adding VM resources directly to a schedule
+**FIGURE 17**. Associating tag values to the schedule
 
 [back to ToC](#table-of-contents)
+
+### Postpone Scheduled Action<!-- omit in toc -->
+
+If you need to use a VM outside currently scheduled hours, you can postpone a scheduled run using the actionable message card in the email notification (in Outlook) or webhook notification (in Teams).
+
+1. To postpone the next scheduled action, use the dropdown in the notification. 
+2. Choose from 'by one hour', 'by two hours', 'by four hours', or 'until next run'.
+3. Add a comment noting the reason for the delay (optional).
+4. Click the **Submit** button to enforce your selection. 
+
+You can view postponed schedule actions in the Resource Scheduler portal, as shown in **Figure 17**.
+
+![schedtags](images/email_notif_before.png)
+
+**FIGURE 15**. Postpone schedule from email (before)
+
+5. After you submit your update, you can view the status of your request in the body of this message by pressing F5 to refresh the card.
+
+![schedtags](images/email_notif_after.png)
+
+**FIGURE 16**. Postpone schedule from email (after)
+
+![postpone](images/postponed-sched.png)
+
+**FIGURE 17**. Postponed schedule actions (in red)
 
 ## Troubleshooting and Support<!-- omit in toc -->
 
@@ -283,13 +361,26 @@ This section details where to view logs related to Resource Scheduler operation,
 
 ### Viewing Resource Logs<!-- omit in toc -->
 
-*To view logs related to a resource, perform the following steps:*
+You can view activity logs from multiple perspectives, as described here.
+
+*To view logs related to a resource or schedule, perform the following steps:*
 
 1. From the left menu, select **Schedules**.
 2. Click the **Expand details** icon to the right of the resource (VM) in question.
-3. Select the **Logs** tab.
+3. Select the **Logs** tab to see log entries, as shown in **Figure 18**.
+
+![postpone](images/sched-log.png)
+
+**FIGURE 18**. Postponed schedule actions (in red)
 
 Events are listed in descending order (newest event at the top).
+
+*To view the central activity log, perform the following steps:*
+1. From the left menu, select **Logs**. Log entries are immediately available, as shown in **Figure 19**.
+
+![postpone](images/central-log.png)
+
+**FIGURE 19**. Postponed schedule actions (in red)
 
 [back to ToC](#table-of-contents)
 
@@ -329,7 +420,7 @@ If desired, you can start and stop VMs on-demand directly from the Resource Sche
    - The **Start** button ![start](images/start.png) only appears for VMs currently in a *stopped* or *deallocated* state.
    - The **Stop** button ![stop](images/stop.png) only appears for VMs currently in a *running* state.
 
-3. Press the appropriate button to start or stop the VM in Figure 15.
+3. Press the appropriate button to start or stop the VM in Figure 17.
 
    - **To START a VM:** Click the green ![start](images/start.png) button next to the right of the VM resource. Click the green start button again in the prompt to confirm the action.
    - **To STOP a VM:** Click the stop ![stop](images/stop.png) button next to the right of the VM resource. Click the red stop button again in the prompt to confirm the action.
@@ -338,7 +429,7 @@ If desired, you can start and stop VMs on-demand directly from the Resource Sche
 
 ![schedtags](images/resources.png)
 
-**FIGURE 15**. Start and Stop buttons for VM resources
+**FIGURE 17**. Start and Stop buttons for VM resources
 
 [back to ToC](#table-of-contents)
 

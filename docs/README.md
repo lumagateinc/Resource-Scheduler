@@ -82,7 +82,7 @@ Written version of Resource Scheduler installation steps is available immediatel
 
 8. Specify a value for the **Resource Prefix**. This can be any unique random alpha string up to 8 characters. (no numbers or special characters are supported).
 
-    >**IMPORTANT**: Microsoft *requires* that the site URL is globally unique, so do not pick a common name or string others might use!
+    >**IMPORTANT**: Microsoft *requires* that the site URL is globally unique, so do not pick a common name or string others might use! For example, do not pick **lumagate** or **luma**! If your company name has an acronym, that is usually a good option to use.
 
 9.  In the Location for Application Insights field, specify the same region you selected when specifying a resource group name.
 
@@ -203,7 +203,7 @@ The time zone settings determines the time zone by which schedules will be set a
 2. Under **Timezone**, select the desired time zone.
 3. Click **Save** to save your changes.
 
-**IMPORTANT!** If you change the Timezone setting after configuring schedules, it will change the time by which all schedules are evaluated! This should be clear from the time zone notices throughout the Resource Scheduler portal, but we wanted to mention it again here! :grin:
+**IMPORTANT!** If you change the Timezone setting after configuring schedules, it will change the time by which all schedules are evaluated! This should be clear from the time zone notices throughout the Resource Scheduler portal, but we wanted to mention it again here!
 
 [back to ToC](#table-of-contents)
 
@@ -226,7 +226,7 @@ To configure email notification:
 
 ## Webhook Notifications<!-- omit in toc -->
 
-You can configure notification of upcoming schedule actions to Microsoft Teams via webhook. Because the notifications are delivered in adaptive cards, they are actionable! You can postpone the next run of a schedule from this notification as described in "[Postpone Scheduled Action](#postpone-scheduled-run)".
+You can configure notification of upcoming schedule actions to Microsoft Teams via webhook. These notifications are actionable, and can be used to postpone an action or even just refresh the latest status! You can postpone the next run of a schedule from this notification as described in "[Postpone Scheduled Action](#postpone-scheduled-run)".
 
 To configure actionable webhook notifications:
 
@@ -398,7 +398,7 @@ Begin by checking our [FAQs Page](/FAQs.md) to see if your question is answered 
 
 **STEP 2: Screenshot your Claims**
 
-Visit **[https://\<tenant\>.azurewebsites.net/claims](https://\<tenant\>.azurewebsites.net/claims)** and capture a screenshot of the claims associated with your account. If you are logging a request for another user, ask them to capture this data and forward to you.
+Visit **[https://\<instance\>.azurewebsites.net/claims](https://\<tenant\>.azurewebsites.net/claims)** and capture a screenshot of the claims associated with your account. If you are logging a request for another user, ask them to capture this data and forward to you.
 
 > **IMPORTANT!** Be sure to complete this step. Your support analyst may ask for this information.
 
